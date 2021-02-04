@@ -18,6 +18,16 @@ const levels = [
         [1, 2, 3, 4],
         [],
         []
+    ],
+    [
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [5, 6, 6, 5],
+        [6, 6, 5, 5],
+        [],
+        []
     ]
 ]
 
@@ -55,19 +65,62 @@ function App() {
         }
 
         if (checkLevelCompletion(tubes)) {
-            setTimeout(() => alert('Hip hip, hurray!'))
+            setLevelComplete(true)
         }
+    }
+
+    const setupNextLevel = () => {
+        setTubes(JSON.parse(JSON.stringify(levels[currentLevelIndex + 1])))
+        setLevelComplete(false)
+        setSelected(-1)
+        setCurrentLevelIndex(currentLevelIndex + 1)
+    }
+
+    const setupRandom = () => {
+        const level = []
+        const colorsCount = 4 + Math.ceil(Math.random() * 7)
+        let levelString = ''
+        for (let i=1; i<=colorsCount; i++) {
+            levelString += i.toString().repeat(4)
+        }
+        const levelArray = levelString
+            .split('')
+            .sort(() => Math.random() - 0.5)
+
+        for (let i=0; i<colorsCount*4; i++) {
+            const tubeIndex = Math.floor(i/4)
+            level[tubeIndex] = level[tubeIndex] || []
+            level[tubeIndex].push(levelArray[i])
+        }
+
+        level.push([], [])
+
+        setTubes(level)
+        setLevelComplete(false)
+        setSelected(-1)
+        setCurrentLevelIndex(currentLevelIndex + 1)
     }
 
     return (
         <div className="App">
             <div className="header">
-                <h1>Level: {currentLevelIndex + 1}</h1>
+                <h1>Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
                 <button
                     onClick={() => setTubes(JSON.parse(JSON.stringify(levels[currentLevelIndex])))}
                     className="restartBtn">
-                    Restart level
+                    Restart Level
                 </button>
+                <button
+                    onClick={setupRandom}
+                    className="restartBtn">
+                    Setup Random Level
+                </button>
+
+                {isLevelComplete && levels[currentLevelIndex+1] && <button
+                    onClick={setupNextLevel}
+                    className="nextLevelBtn">
+                    Next  Level
+                </button>}
             </div>
             <div className="level">
                 {tubes.map((layers, index) => (

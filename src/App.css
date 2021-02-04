@@ -13,9 +13,15 @@ body {
 
 .header {
   margin: 0 auto 150px;
+  text-align: center;
 }
 
 .restartBtn {
+  margin: 0 20px;
+}
+
+.nextLevelBtn {
+  margin: 0 20px;
 }
 
 .level {
@@ -23,18 +29,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  max-width: 80vw;
+  flex-wrap: wrap;
 }
 
 .tube {
   position: relative;
   display: flex;
   flex-direction: column-reverse;
-  width: 50px;
+  width: 75px;
   height: 300px;
-  margin: 0 25px;
+  margin: 0 20px 50px;
 
   border: 4px solid cadetblue;
-  border-radius: 0 0 25px 25px;
+  border-radius: 0 0 50px 50px;
   overflow: hidden;
 
   transition: all 0.3s ease;
@@ -46,17 +55,40 @@ body {
 }
 
 .layer {
-  height: 20%;
+  --layer-height: 22.5%;
+  height: var(--layer-height);
   margin-top: -1px;
-  animation: layer-fill 0.3s ease;
+  transition: background-color 1s;
+}
+
+.layer[class*=color-] {
+  animation: layer-fill 1s ease forwards;
+  transition: background-color 0s;
+}
+
+/* empty state */
+.layer.color-0 {
+  animation: layer-fillout 1s ease forwards;
+  transition: background-color 999s;
 }
 
 @keyframes layer-fill {
   from {height: 0}
-  to {height: 20%}
+  to {height: var(--layer-height);}
+}
+@keyframes layer-fillout {
+  from {height: var(--layer-height); transition: background-color 999s;}
+  to {height: 0; transition: background-color 1s;}
 }
 
 .color-1 {background: royalblue;}
 .color-2 {background: blueviolet;}
 .color-3 {background: yellowgreen;}
 .color-4 {background: hotpink;}
+.color-5 {background: antiquewhite;}
+.color-6 {background: crimson;}
+.color-7 {background: #333;}
+.color-8 {background: grey;}
+.color-9 {background: darkolivegreen;}
+.color-10 {background: chocolate;}
+.color-11 {background: brown;}
