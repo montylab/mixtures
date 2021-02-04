@@ -1,4 +1,4 @@
 ## Mixture Puzzle game. 
-#### [Demo](montylab.github.io) 
+#### [Demo](https://montylab.github.io) 
 
  
