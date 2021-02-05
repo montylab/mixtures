@@ -1,41 +1,7 @@
 import './App.css';
 import Tube from "./Tube";
 import React, {useState} from "react";
-
-const levels = [
-    [
-        [1, 1, 1, 4],
-        [4, 4, 4, 1],
-        [2, 2, 2, 2],
-        [3, 3, 3, 3],
-        [],
-        []
-    ],
-    [
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [],
-        []
-    ],
-    [
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [5, 6, 6, 5],
-        [6, 6, 5, 5],
-        [],
-        []
-    ]
-]
-
-const checkLevelCompletion = (level) => {
-    return level.reduce((acc, tube) => {
-        return acc && tube.length % 4 === 0 && tube.every(color => color === tube[0])
-    }, true)
-}
+import {checkLevelCompletion, generateLevel, levels} from "./levels";
 
 function App() {
     const [tubes, setTubes] = useState(JSON.parse(JSON.stringify(levels[0])))
@@ -77,28 +43,12 @@ function App() {
     }
 
     const setupRandom = () => {
-        const level = []
-        const colorsCount = 4 + Math.ceil(Math.random() * 7)
-        let levelString = ''
-        for (let i=1; i<=colorsCount; i++) {
-            levelString += i.toString().repeat(4)
-        }
-        const levelArray = levelString
-            .split('')
-            .sort(() => Math.random() - 0.5)
-
-        for (let i=0; i<colorsCount*4; i++) {
-            const tubeIndex = Math.floor(i/4)
-            level[tubeIndex] = level[tubeIndex] || []
-            level[tubeIndex].push(levelArray[i])
-        }
-
-        level.push([], [])
-
+        const level = generateLevel()
+        levels.push(level)
         setTubes(level)
         setLevelComplete(false)
         setSelected(-1)
-        setCurrentLevelIndex(currentLevelIndex + 1)
+        setCurrentLevelIndex(levels.length - 1)
     }
 
     return (
@@ -116,7 +66,7 @@ function App() {
                     Setup Random Level
                 </button>
 
-                {isLevelComplete && levels[currentLevelIndex+1] && <button
+                {1 && levels[currentLevelIndex+1] && <button
                     onClick={setupNextLevel}
                     className="nextLevelBtn">
                     Next  Level
