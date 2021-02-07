@@ -9,7 +9,7 @@ const levels = require('./levels-setup.json');
 function App() {
     const [tubes, setTubes] = useState(JSON.parse(JSON.stringify(levels[0])))
     const [selected, setSelected] = useState(-1)
-    const [arrowPosition, setArrowPosition] = useState(2)
+    const [arrowPosition, setArrowPosition] = useState(-1)
     const [isLevelComplete, setLevelComplete] = useState(false)
     const [currentLevelIndex, setCurrentLevelIndex] = useState(0)
 
@@ -82,7 +82,7 @@ function App() {
             pos = tubes.length - 1
         }
 
-        setArrowPosition(pos)
+        setArrowPosition(!isNaN(pos) ? pos : -1)
     }
 
     // rewrite every render to have binding to setState
