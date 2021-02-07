@@ -1,11 +1,15 @@
 import './App.css';
 import Tube from "./Tube";
-import React, {useState} from "react";
-import {checkLevelCompletion, generateLevel, levels} from "./levels";
+import React, {useEffect, useState} from "react";
+import {checkLevelCompletion, generateLevel} from "./levels.js";
+import {throttle} from "throttle-debounce";
+
+const levels = require('./levels-setup.json');
 
 function App() {
     const [tubes, setTubes] = useState(JSON.parse(JSON.stringify(levels[0])))
     const [selected, setSelected] = useState(-1)
+    const [arrowPosition, setArrowPosition] = useState(2)
     const [isLevelComplete, setLevelComplete] = useState(false)
     const [currentLevelIndex, setCurrentLevelIndex] = useState(0)
 
@@ -51,6 +55,43 @@ function App() {
         setCurrentLevelIndex(levels.length - 1)
     }
 
+    const keyupHandler = (e) => {
+        if (!e) return
+
+        let pos
+        if (e.key === 'ArrowRight') {
+            pos = arrowPosition + 1
+        } else if (e.key === 'ArrowLeft') {
+            pos = arrowPosition - 1
+        } else if (e.key === 'Enter') {
+            if (selected === -1) {
+                setSelected(arrowPosition)
+            } else if (arrowPosition === selected) {
+                setSelected(-1)
+            } else {
+                console.log('helloy')
+                manipulateTubes(arrowPosition)
+            }
+
+
+
+            return
+        }
+
+        if (pos > tubes.length - 1) {
+            pos = 0
+        } else if (pos < 0) {
+            pos = tubes.length - 1
+        }
+
+        setArrowPosition(pos)
+    }
+
+    // rewrite every render to have binding to setState
+    window.onkeydown = throttle(100, false, keyupHandler)
+    window.onkeydown()
+
+
     return (
         <div className="App">
             <div className="header">
@@ -77,11 +118,14 @@ function App() {
                     <Tube
                         layers={layers}
                         selected={index === selected}
+                        hovered={index === arrowPosition}
                         onClick={() => manipulateTubes(index)}
                         key={index}
                     />
                 ))}
             </div>
+
+            {arrowPosition} - {selected}
         </div>
     );
 }

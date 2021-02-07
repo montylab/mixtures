@@ -1,67 +1,10 @@
-const clone = require('rfdc')()
+import rfdc from "rfdc";
+import * as fs from "fs";
+// import {levelsWithFiveTubes} from "./predefined-levels.mjs";
+
+const clone = rfdc()
 
 export const levels = [
-    [
-        [ 1, 2, 6, 9 ],   [ 12, 5, 11, 5 ],
-        [ 12, 12, 7, 3 ], [ 8, 11, 10, 10 ],
-        [ 7, 11, 4, 4 ],  [ 1, 11, 2, 4 ],
-        [ 9, 4, 8, 8 ],   [ 5, 9, 5, 10 ],
-        [ 6, 1, 7, 6 ],   [ 7, 3, 6, 9 ],
-        [ 2, 3, 8, 12 ],  [ 3, 1, 10, 2 ],
-        [],               []
-    ],
-    [
-        [9, 4, 12, 12], [5, 11, 1, 3],
-        [3, 9, 10, 2], [9, 1, 9, 5],
-        [6, 7, 8, 7], [11, 1, 4, 2],
-        [4, 6, 5, 7], [7, 4, 3, 2],
-        [12, 2, 5, 8], [6, 8, 1, 10],
-        [10, 11, 6, 10], [12, 3, 11, 8],
-        [], []
-    ],
-    [
-        [5, 1, 11, 5], [1, 2, 1, 10],
-        [4, 8, 11, 6], [7, 5, 11, 7],
-        [10, 3, 9, 6], [5, 11, 8, 10],
-        [3, 7, 9, 4], [4, 7, 2, 9],
-        [6, 8, 2, 6], [3, 10, 8, 3],
-        [1, 4, 9, 2], [],
-        []
-    ],
-    [
-        [1, 1, 1, 4],
-        [4, 4, 4, 1],
-        [2, 2, 2, 2],
-        [3, 3, 3, 3],
-        [],
-        []
-    ],
-    [
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [],
-        []
-    ],
-    [
-        [],
-        [1],
-        [2, 1, 1, 1],
-        [2, 2, 2],
-        [3, 3, 3, 3],
-        [4, 4, 4, 4]
-    ],
-    [
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [1, 2, 3, 4],
-        [5, 6, 6, 5],
-        [6, 6, 5, 5],
-        [],
-        []
-    ],
     [
         [1, 3, 2, 1],
         [6, 5, 5, 4],
@@ -75,17 +18,29 @@ export const levels = [
         [],
         []
     ],
+    [
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [1, 2, 3, 4],
+        [],
+        [],
+    ],
 ]
 
-export const generateLevel = (colors = 11) => {
+
+export const generateRandomLevel = (colors = 12) => {
     const level = []
-    const colorsCount = 4 + Math.ceil(Math.random() * colors - 4)
+    const colorsCount = colors
     let levelString = ''
-    for (let i = 1; i <= colorsCount; i++) {
-        levelString += i.toString().repeat(4)
+    for (let i = 1; i <= colors; i++) {
+        levelString += (i.toString() + '-').repeat(4)
     }
+    levelString = levelString.slice(0, levelString.length - 1)
+
     const levelArray = levelString
-        .split('')
+        .split('-')
+        .map(Number)
         .sort(() => Math.random() - 0.5)
 
     for (let i = 0; i < colorsCount * 4; i++) {
@@ -96,10 +51,20 @@ export const generateLevel = (colors = 11) => {
 
     level.push([], [])
 
+
     return level
 }
 
 export const checkLevelCompletion = (level) => {
+    // hack to check is it not complete, but might be
+    // let's assume that if we have 1 empty and all except 3 filled full
+    // const emptyTubes = level.filter(tube => tube.length === 0)
+    // const filledTubes = level.filter(t => t[0] === t[1] && t[0] === t[2] && t[0] === t[3])
+
+    // if (level.length - emptyTubes.length - filledTubes.length < 3) {
+    //     return true
+    // }
+
     return level.reduce((acc, tube) => {
         return acc && tube.length % 4 === 0 && tube.every(color => color === tube[0])
     }, true)
@@ -128,19 +93,6 @@ const getActionIfPossible = (tubes, fromIndex, toIndex) => {
         }
 
         layers = Math.min(maxLayersToMove, maxLayersToReceive)
-
-        //tubes[fromIndex].join('').
-
-        // const from = [...tubes[fromIndex]]
-        // const to = [...tubes[toIndex]]
-        //
-        // while (
-        //     from.length !== 0 && to.length !== 4
-        //     && (from[from.length - 1] === to[to.length - 1] || to.length === 0)
-        //     ) {
-        //     to.push(from.pop())
-        //     layers++
-        // }
     }
 
     return layers && {from: fromIndex, to: toIndex, layers}
@@ -190,23 +142,48 @@ const isActionDumb = (level, {from, to, layers}) => {
     return false
 }
 
+const removeUnsuficientTubes = (level) => {
+    level = level.filter(
+        tube => !(tube.length === 4 && tube[0] === tube[1] && tube[0] === tube[2] && tube[0] === tube[3])
+    )
+
+    // const emptyTubesCount = level.filter(tube => tube.length === 0).length
+    //
+    // if (emptyTubesCount === 1) {
+    //     const values = level.map(tube => Array.from(new Set(tube)).sort().join(''))
+    //
+    //     if (level)
+        //
+        // console.log(values,level, checkLevelCompletion(level))
+        // process.exit(0)
+    // }
+    //
+    // if (level.length - emptyTubes.length - filledTubes.length < 3) {
+    //     return true
+    // }
+
+    return level
+}
+
 let showFirst = 20
 let totalCalls = 0
 export const findLevelSolution = (level, previousActions = []) => {
     totalCalls++
-    if (previousActions.length === 30) {
+    if (previousActions.length === 40 || totalCalls > 100000) {
+
         //console.log(JSON.stringify(previousActions))
         //console.count('not found')
 
-        if (totalCalls % 1000000 === 0) {
-            console.log(JSON.stringify(previousActions))
-        }
+        // if (totalCalls % 10000 === 0 ) {
+        //     console.log(JSON.stringify(previousActions))
+        // }
 
         return []
     }
 
     const solutions = []
 
+    const possibleActions = []
     const levelLength = level.length
     for (let from = 0; from < levelLength; from++) {
         for (let to = 0; to < levelLength; to++) {
@@ -215,27 +192,72 @@ export const findLevelSolution = (level, previousActions = []) => {
             if (!action || isActionDumb(level, action)) {
                 continue
             }
-            const updatedLevel = applyActionToLevel(action, level)
+
+            possibleActions.push(action)
+
+            let updatedLevel = applyActionToLevel(action, level)
+            updatedLevel = removeUnsuficientTubes(updatedLevel)
             const isComplete = checkLevelCompletion(updatedLevel)
             const actionsQueue = [...previousActions, action]
 
             if (isComplete) {
-                solutions.push(actionsQueue)
-                if (solutions.length > 1000) {
-                    return solutions
-                }
+                // solutions.push(actionsQueue)
+                solutions.push(actionsQueue.map(({from, to}) => `${from}-${to}`).join(' '))
             }
 
             const childSolutions = findLevelSolution(updatedLevel, [...previousActions, action])
             solutions.push(...childSolutions)
+
+            // if (solutions.length && solutions.length % 100000 < 10) {
+                // console.log(1, solutions[solutions.length - 1])
+            // }
+
+            if (solutions.length > 1000) {
+                // console.log({possibleActions: possibleActions.length})
+                // console.log({possibleActions: possibleActions.length, actions: previousActions.length})
+                return solutions
+            }
         }
     }
+
+    //console.log({possibleActions: possibleActions.length, actions: previousActions.length})
 
     return solutions
 }
 
-
 console.time()
-// const solutions = findLevelSolution(levels[4])
-// console.log(solutions, totalCalls)
+// const levelsToCheck = levelsWithFiveTubes
+// const unsolved = []
+// console.log('count: ' + levelsToCheck.length)
+//
+// for (let i = 0; i < 1; i++){
+//     let level = levelsToCheck[i];
+//     const solutions = findLevelSolution(level)
+//
+//     if (solutions.length === 0) {
+//         console.log(i + ' failed')
+//         console.log(level);
+//         unsolved.push(level)
+//         console.count()
+//     } else {
+//         //console.log('cracked')
+//     }
+// }
+
+
+const solutions = findLevelSolution(levels[0])
+console.log({solutions: solutions.length, totalFuncCalls: totalCalls})
+console.log(solutions.pop())
 console.timeEnd()
+
+const generatedLevels = []
+while (generatedLevels.length < 100) {
+    const level = generateRandomLevel(4 + Math.floor(generatedLevels.length / 10))
+    totalCalls = 0
+    console.log(level)
+    if (findLevelSolution(level).length > 1) {
+        generatedLevels.push(level)
+        console.log('level generated: ' + generatedLevels.length)
+    }
+}
+fs.writeFileSync('./levels.json', JSON.stringify(generatedLevels, null,2))

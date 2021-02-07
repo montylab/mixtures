@@ -46,13 +46,36 @@ body {
   border-radius: 0 0 50px 50px;
   overflow: hidden;
 
-  transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.tube.selected {
+
+.tubeWrapper {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.tubeWrapper.selected {
   transform: translateY(-20%);
 }
+
+
+.tubeWrapper .arrow {
+  position: absolute;
+  width: 20%;
+  padding-bottom: 20%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -200%) rotate(0.5turn);
+  background: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 80 80'%3E%3Cg%3E%3Cpath fill='%232C98CA' d='M68.1,41.7C67.6,42.6,66.9,43,66,43H53.9v32.6c0,1.7-0.8,2.5-2.5,2.5H28.7c-1.7,0-2.5-0.8-2.5-2.5V43H14 c-0.9,0-1.6-0.5-2.1-1.4c-0.5-0.8-0.5-1.6,0.2-2.5L37.9,2.6c0.4-0.6,1.1-1,2.1-1c0.9,0,1.6,0.3,2,1l26,36.5 C68.7,39.9,68.8,40.8,68.1,41.7z'/%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0;
+  transition: 0.33s ease;
+}
+
+.tubeWrapper.hovered .arrow {
+  opacity: 1;
+}
+
 
 .layer {
   --layer-height: 22.5%;
@@ -92,3 +115,5 @@ body {
 .color-9 {background: darkolivegreen;}
 .color-10 {background: chocolate;}
 .color-11 {background: brown;}
+.color-12 {background: cyan;}
+.color-13 {background: seagreen;}
