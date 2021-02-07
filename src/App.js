@@ -73,8 +73,6 @@ function App() {
                 manipulateTubes(arrowPosition)
             }
 
-
-
             return
         }
 
@@ -91,6 +89,11 @@ function App() {
     window.onkeydown = throttle(100, false, keyupHandler)
     window.onkeydown()
 
+    const clickTubeHandler = (index) => {
+        setArrowPosition(-1)
+        manipulateTubes(index)
+        console.log(index)
+    }
 
     return (
         <div className="App">
@@ -119,7 +122,7 @@ function App() {
                         layers={layers}
                         selected={index === selected}
                         hovered={index === arrowPosition}
-                        onClick={() => manipulateTubes(index)}
+                        onClick={() => clickTubeHandler(index)}
                         key={index}
                     />
                 ))}
