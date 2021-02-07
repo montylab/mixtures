@@ -8,7 +8,7 @@ function Tube({layers = [], selected = false, hovered = false, onClick}) {
     return (
         <div className={`tubeWrapper ${selected ? 'selected' : ''} ${hovered ? 'hovered' : ''}`}>
             <div
-                className={`tube`}
+                className={`tube tube-type-1`}
                 onClick={onClick}
             >
                 {withEmpties.map((color, index) => <div className={'layer color-' + color} key={index}/>)}

@@ -190,7 +190,6 @@ const isActionDumb = (level, {from, to, layers}) => {
     return false
 }
 
-let showFirst = 20
 let totalCalls = 0
 export const findLevelSolution = (level, previousActions = []) => {
     totalCalls++

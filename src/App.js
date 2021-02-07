@@ -1,8 +1,11 @@
 import './App.css';
 import Tube from "./Tube";
-import React, {useEffect, useState} from "react";
-import {checkLevelCompletion, generateLevel} from "./levels.js";
+import React, {useState} from "react";
+import {checkLevelCompletion} from "./levels.js";
 import {throttle} from "throttle-debounce";
+import NextScreen from "./NextScreen";
+import LevelsScreen from "./LevelsScreen";
+import deepcopy from "deepcopy";
 
 const levels = require('./levels-setup.json');
 
@@ -12,6 +15,8 @@ function App() {
     const [arrowPosition, setArrowPosition] = useState(-1)
     const [isLevelComplete, setLevelComplete] = useState(false)
     const [currentLevelIndex, setCurrentLevelIndex] = useState(0)
+    const [activeScreen, setActiveScreen] = useState('gameScreen')
+    const [actionHistory, setActionHistory] = useState([])
 
     const manipulateTubes = (index) => {
         if (selected === -1) {
@@ -21,13 +26,16 @@ function App() {
                 const from = tubes[selected]
                 const to = tubes[index]
 
+                let layersCount = 0
                 while (
                     from.length !== 0 && to.length !== 4
                     && (from[from.length - 1] === to[to.length - 1] || to.length === 0)
                     ) {
                     to.push(from.pop())
+                    layersCount++
                 }
 
+                setActionHistory([...actionHistory, {from: selected, to: index, layers: layersCount}])
                 setTubes(tubes)
             }
 
@@ -35,24 +43,23 @@ function App() {
         }
 
         if (checkLevelCompletion(tubes)) {
-            setLevelComplete(true)
+
+            setTimeout(() => {
+                setLevelComplete(true)
+                setActiveScreen('nextScreen')
+            }, 500)
         }
     }
 
-    const setupNextLevel = () => {
-        setTubes(JSON.parse(JSON.stringify(levels[currentLevelIndex + 1])))
-        setLevelComplete(false)
-        setSelected(-1)
-        setCurrentLevelIndex(currentLevelIndex + 1)
-    }
-
-    const setupRandom = () => {
-        const level = generateLevel()
-        levels.push(level)
-        setTubes(level)
-        setLevelComplete(false)
-        setSelected(-1)
-        setCurrentLevelIndex(levels.length - 1)
+    const setupLevel = (index) => {
+        if (levels[index]) {
+            setTubes(deepcopy(levels[index]))
+            setActionHistory([])
+            setLevelComplete(false)
+            setActiveScreen('gameScreen')
+            setSelected(-1)
+            setCurrentLevelIndex(index)
+        }
     }
 
     const keyupHandler = (e) => {
@@ -64,12 +71,16 @@ function App() {
         } else if (e.key === 'ArrowLeft') {
             pos = arrowPosition - 1
         } else if (e.key === 'Enter') {
+            if (activeScreen === 'nextScreen') {
+                setupLevel(currentLevelIndex + 1)
+                return
+            }
+
             if (selected === -1) {
                 setSelected(arrowPosition)
             } else if (arrowPosition === selected) {
                 setSelected(-1)
             } else {
-                console.log('helloy')
                 manipulateTubes(arrowPosition)
             }
 
@@ -85,7 +96,7 @@ function App() {
         setArrowPosition(!isNaN(pos) ? pos : -1)
     }
 
-    // rewrite every render to have binding to setState
+    // rewrite every render to have binding to setState, call it to prevent new function after reload reload
     window.onkeydown = throttle(100, false, keyupHandler)
     window.onkeydown()
 
@@ -95,27 +106,72 @@ function App() {
         console.log(index)
     }
 
+    const undo = () => {
+        const lastAction = actionHistory.pop()
+        if (lastAction) {
+            const updTubes = deepcopy(tubes)
+            for (let i=0; i<lastAction.layers; i++) {
+                updTubes[lastAction.from].push(updTubes[lastAction.to].pop())
+            }
+
+            setTubes(updTubes)
+            setActionHistory(actionHistory)
+        }
+    }
+
     return (
         <div className="App">
             <div className="header">
-                <h1>Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
                 <button
-                    onClick={() => setTubes(JSON.parse(JSON.stringify(levels[currentLevelIndex])))}
-                    className="restartBtn">
-                    Restart Level
-                </button>
-                <button
-                    onClick={setupRandom}
-                    className="restartBtn">
-                    Setup Random Level
+                    onClick={() => setActiveScreen('settingsScreen')}
+                    className="settingsBtn btn linkBtn"
+                    title="Settings"
+                >
+                    <svg>
+                        <use xlinkHref="#icon-settings"/>
+                    </svg>
                 </button>
 
-                {1 && levels[currentLevelIndex+1] && <button
-                    onClick={setupNextLevel}
-                    className="nextLevelBtn">
-                    Next  Level
-                </button>}
+                <button
+                    onClick={() => setActiveScreen('levelsScreen')}
+                    className="levelsBtn btn linkBtn"
+                    title="Choose Level"
+                >
+                    <svg>
+                        <use xlinkHref="#icon-levels"/>
+                    </svg>
+                </button>
+
+                <button
+                    onClick={() => setupLevel(currentLevelIndex)}
+                    className="restartBtn btn linkBtn"
+                    title="Restart Level"
+                >
+                    <svg>
+                        <use xlinkHref="#icon-reload"/>
+                    </svg>
+                </button>
+
+                <button
+                    onClick={undo}
+                    className="undoBtn btn linkBtn"
+                    title="Undo"
+                >
+                    <svg>
+                        <use xlinkHref="#icon-undo"/>
+                    </svg>
+                </button>
+
+
+                {/*{levels[currentLevelIndex + 1] && <button*/}
+                {/*    onClick={() => setupLevel(currentLevelIndex + 1)}*/}
+                {/*    className="nextLevelBtn">*/}
+                {/*    Next Level*/}
+                {/*</button>}*/}
             </div>
+
+            <h1 className="levelTitle">Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
+
             <div className="level">
                 {tubes.map((layers, index) => (
                     <Tube
@@ -128,7 +184,16 @@ function App() {
                 ))}
             </div>
 
-            {arrowPosition} - {selected}
+            <NextScreen
+                show={activeScreen === 'nextScreen'}
+                switchToNextLevel={() => setupLevel(currentLevelIndex + 1)}
+            />
+
+            <LevelsScreen
+                show={activeScreen === 'levelsScreen'}
+                onSelectLevel={setupLevel}
+                activateScreen={() => setActiveScreen}
+            />
         </div>
     );
 }
