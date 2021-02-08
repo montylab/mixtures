@@ -6,6 +6,15 @@ import {throttle} from "throttle-debounce";
 import NextScreen from "./NextScreen";
 import LevelsScreen from "./LevelsScreen";
 import deepcopy from "deepcopy";
+import {Header} from "./Header";
+import SettingsScreen from "./SettingsScreen";
+
+export const SCREENS = {
+    game: 'game',
+    nextLevel: 'nextLevel',
+    settings: 'settings',
+    levels: 'levels',
+}
 
 const levels = require('./levels-setup.json');
 
@@ -37,26 +46,28 @@ function App() {
 
                 setActionHistory([...actionHistory, {from: selected, to: index, layers: layersCount}])
                 setTubes(tubes)
-            }
 
-            setSelected(-1)
+                setSelected(layersCount ? -1 : index)
+            } else {
+                setSelected(index)
+            }
         }
 
         if (checkLevelCompletion(tubes)) {
 
             setTimeout(() => {
                 setLevelComplete(true)
-                setActiveScreen('nextScreen')
+                setActiveScreen(SCREENS.nextLevel)
             }, 500)
         }
     }
 
-    const setupLevel = (index) => {
+    const setupLevel = (index = currentLevelIndex) => {
         if (levels[index]) {
             setTubes(deepcopy(levels[index]))
             setActionHistory([])
             setLevelComplete(false)
-            setActiveScreen('gameScreen')
+            setActiveScreen(SCREENS.game)
             setSelected(-1)
             setCurrentLevelIndex(index)
         }
@@ -103,7 +114,6 @@ function App() {
     const clickTubeHandler = (index) => {
         setArrowPosition(-1)
         manipulateTubes(index)
-        console.log(index)
     }
 
     const undo = () => {
@@ -121,54 +131,11 @@ function App() {
 
     return (
         <div className="App">
-            <div className="header">
-                <button
-                    onClick={() => setActiveScreen('settingsScreen')}
-                    className="settingsBtn btn linkBtn"
-                    title="Settings"
-                >
-                    <svg>
-                        <use xlinkHref="#icon-settings"/>
-                    </svg>
-                </button>
-
-                <button
-                    onClick={() => setActiveScreen('levelsScreen')}
-                    className="levelsBtn btn linkBtn"
-                    title="Choose Level"
-                >
-                    <svg>
-                        <use xlinkHref="#icon-levels"/>
-                    </svg>
-                </button>
-
-                <button
-                    onClick={() => setupLevel(currentLevelIndex)}
-                    className="restartBtn btn linkBtn"
-                    title="Restart Level"
-                >
-                    <svg>
-                        <use xlinkHref="#icon-reload"/>
-                    </svg>
-                </button>
-
-                <button
-                    onClick={undo}
-                    className="undoBtn btn linkBtn"
-                    title="Undo"
-                >
-                    <svg>
-                        <use xlinkHref="#icon-undo"/>
-                    </svg>
-                </button>
-
-
-                {/*{levels[currentLevelIndex + 1] && <button*/}
-                {/*    onClick={() => setupLevel(currentLevelIndex + 1)}*/}
-                {/*    className="nextLevelBtn">*/}
-                {/*    Next Level*/}
-                {/*</button>}*/}
-            </div>
+            <Header
+                undoHandler={undo}
+                restartHandler={setupLevel}
+                setActiveScreen={setActiveScreen}
+            />
 
             <h1 className="levelTitle">Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
 
@@ -185,14 +152,19 @@ function App() {
             </div>
 
             <NextScreen
-                show={activeScreen === 'nextScreen'}
+                show={activeScreen === SCREENS.nextLevel}
                 switchToNextLevel={() => setupLevel(currentLevelIndex + 1)}
             />
 
             <LevelsScreen
-                show={activeScreen === 'levelsScreen'}
+                show={activeScreen === SCREENS.levels}
                 onSelectLevel={setupLevel}
-                activateScreen={() => setActiveScreen}
+                setActiveScreen={setActiveScreen}
+            />
+
+            <SettingsScreen
+                show={activeScreen === SCREENS.settings}
+                setActiveScreen={setActiveScreen}
             />
         </div>
     );

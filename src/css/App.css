@@ -1,3 +1,12 @@
+@import "header.css";
+@import "tube.css";
+
+@import "gameScreen.css";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, Arial, sans-serif;
@@ -5,6 +14,8 @@ body {
   /*background-color: #616161;*/
   /*background-blend-mode: soft-light;*/
 }
+
+
 
 .linkBtn {
   background-color: transparent;
@@ -32,132 +43,7 @@ body {
   min-height: 100vh;
 }
 
-.header {
-  margin: 0 auto 10vh;
-  padding: 2vw;
-  box-sizing: border-box;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  text-align: center;
-}
 
-.level {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  max-width: 80vw;
-  flex-wrap: wrap;
-
-  flex: 1;
-  padding-bottom: 5vw;
-}
-
-.levelTitle {
-  font-size: 4vw;
-  color: #333;
-  margin: 0 auto 10vh;
-}
-
-.tube {
-  position: relative;
-  display: flex;
-  flex-direction: column-reverse;
-  width: 75px;
-  height: 300px;
-  margin: 0 20px 50px;
-
- border-radius: 0 0 50px 50px;
-  overflow: hidden;
-
-  cursor: pointer;
-}
-
-.tube-type-1 {
-  border-color: white;
-  border-style: solid;
-  border-width: 0 3px 3px 3px;
-  box-shadow: 0 2px 0 2px #aaa;
-  margin-top: -1px;
-}
-
-.tube-type-2 {
-  border-color: #333;
-  border-style: ridge double double double;
-  border-width: 0 4px 4px 4px;
-}
-
-.tubeWrapper {
-  position: relative;
-  transition: all 0.3s ease;
-}
-
-.tubeWrapper.selected {
-  perspective: 1px;
-
-  transform: translateY(-50px);
-}
-
-
-.tubeWrapper .arrow {
-  position: absolute;
-  width: 20%;
-  padding-bottom: 20%;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -200%) rotate(0.5turn);
-  background: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 80 80'%3E%3Cg%3E%3Cpath fill='%232C98CA' d='M68.1,41.7C67.6,42.6,66.9,43,66,43H53.9v32.6c0,1.7-0.8,2.5-2.5,2.5H28.7c-1.7,0-2.5-0.8-2.5-2.5V43H14 c-0.9,0-1.6-0.5-2.1-1.4c-0.5-0.8-0.5-1.6,0.2-2.5L37.9,2.6c0.4-0.6,1.1-1,2.1-1c0.9,0,1.6,0.3,2,1l26,36.5 C68.7,39.9,68.8,40.8,68.1,41.7z'/%3E%3C/g%3E%3C/svg%3E");
-  opacity: 0;
-  transition: 0.33s ease;
-}
-
-.tubeWrapper.hovered .arrow {
-  opacity: 1;
-}
-
-
-.layer {
-  --layer-height: 22.5%;
-  height: var(--layer-height);
-  margin-top: -1px;
-  transition: background-color 1s;
-}
-
-.layer[class*=color-] {
-  animation: layer-fill 1s ease forwards;
-  transition: background-color 0s;
-}
-
-/* empty state */
-.layer.color-0 {
-  animation: layer-fillout 1s ease forwards;
-  transition: background-color 999s;
-}
-
-@keyframes layer-fill {
-  from {height: 0}
-  to {height: var(--layer-height);}
-}
-@keyframes layer-fillout {
-  from {height: var(--layer-height); transition: background-color 999s;}
-  to {height: 0; transition: background-color 1s;}
-}
-
-.color-1 {background: royalblue;}
-.color-2 {background: blueviolet;}
-.color-3 {background: yellowgreen;}
-.color-4 {background: hotpink;}
-.color-5 {background: antiquewhite;}
-.color-6 {background: crimson;}
-.color-7 {background: #333;}
-.color-8 {background: grey;}
-.color-9 {background: darkolivegreen;}
-.color-10 {background: chocolate;}
-.color-11 {background: brown;}
-.color-12 {background: cyan;}
-.color-13 {background: seagreen;}
 
 
 /* Interface */
@@ -166,20 +52,6 @@ body {
   text-decoration: none;
   display: block;
 }
-
-.header .btn {
-  fill: rebeccapurple;
-  width: 5vw;
-  height: 5vw;
-  padding: 1vw;
-}
-
-.btn svg {
-  width: 100%;
-  height: 100%;
-}
-
-.restartBtn {}
 
 /* screens */
 .screen {
@@ -256,7 +128,7 @@ body {
   font-size: 3vw;
 }
 
-.levelsScreen .backBtn {
+.screen .backBtn {
   font-size: 2vw;
   font-weight: bold;
   letter-spacing: 0.1vw;
@@ -268,25 +140,4 @@ body {
   text-shadow: 0.3vw 0.07vw rgba(0, 0, 0, 0.7);
   border: 0.4vw white solid;
   margin: 3vw;
-}
-
-.nextScreen {
-  background: none;
-}
-
-.fireworks {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
-  overflow: hidden;
-  display: flex;
-  font-family: sans-serif;
-  justify-content: center;
-  align-items: center;
-  perspective: 600px;
-  background: url(../assets/firework.gif) no-repeat center 82% / 100% #000;
-  opacity: 0.8;
 }

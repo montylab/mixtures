@@ -1,8 +1,9 @@
 import React from "react";
+import {SCREENS} from "./App";
 
 const levels = require('./levels-setup.json');
 
-function LevelsScreen({onSelectLevel, show, activateScreen}) {
+function LevelsScreen({onSelectLevel, show, setActiveScreen}) {
     return (
         <div className={`screen levelsScreen ${show && 'show'}`}>
             <h1>Choose Level</h1>
@@ -20,7 +21,7 @@ function LevelsScreen({onSelectLevel, show, activateScreen}) {
             <button
                 title="Go back"
                 className="backBtn btn linkBtn"
-                onClick={activateScreen('gameScreen')}
+                onClick={() => setActiveScreen(SCREENS.game)}
             >
                 Go Back
             </button>

@@ -1,0 +1,20 @@
+.level {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 80vw;
+    min-height: 50vh;
+    padding: 10vh 0;
+
+    margin: auto;
+}
+
+.levelTitle {
+    font-size: calc(16px + 2.5vw);
+    line-height: 10vh;
+    color: #333;
+    margin: auto;
+}
