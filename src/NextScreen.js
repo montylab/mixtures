@@ -1,10 +1,10 @@
 import React from "react";
-import {Firework} from "./Firework";
+import {Fireworks} from "./Fireworks";
 
 function NextScreen({switchToNextLevel, show}) {
     return (
         <div className={`screen nextScreen ${show && 'show'}`} >
-            <Firework />
+            {show && <div className="fireworks" />}
 
             <h1>Great Job!</h1>
 
