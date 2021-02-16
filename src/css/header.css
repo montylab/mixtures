@@ -1,0 +1,22 @@
+.header {
+    --header-button-size: calc(32px + 3vw);
+
+    padding: 2vw;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header .btn {
+    fill: rebeccapurple;
+    width: var(--header-button-size);
+    height: var(--header-button-size);
+    padding: calc(var(--header-button-size) / 5);
+}
+
+.header .btn svg {
+    width: 100%;
+    height: 100%;
+}
