@@ -2,55 +2,63 @@
 @import "tube.css";
 
 @import "gameScreen.css";
+@import "levelsScreen.css";
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
+
+*:fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen,
+:not(:root):fullscreen::backdrop {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 
 body {
-  margin: 0;
-  font-family: -apple-system, Arial, sans-serif;
-  background: url(../assets/bg-white.png);
-  /*background-color: #616161;*/
-  /*background-blend-mode: soft-light;*/
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    background: url(../assets/bg-white.png);
+    /*background-color: #616161;*/
+    /*background-blend-mode: soft-light;*/
 }
-
 
 
 .linkBtn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: inline;
-  margin: 0;
-  padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 .linkBtn:hover,
 .linkBtn:focus {
-  outline: none;
+    outline: none;
 }
 
 .d-none {
-  display: none;
+    display: none;
 }
 
 .App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
-
-
 
 
 /* Interface */
 .btn {
-  cursor: pointer;
-  text-decoration: none;
-  display: block;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
 }
 
 /* screens */
@@ -73,71 +81,39 @@ body {
 .screen.show {
     opacity: 1;
     visibility: visible;
-  transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .screen h1 {
-  color: white;
-  font-size: 8vw;
-  margin: 0 0 15vh 0;
-  text-shadow: 0.8vw 0.2vw rgba(0, 0, 0, 0.7);
-}
-
-.nextLevelBtn {
-  font-size: 2vw;
-  font-weight: bold;
-  letter-spacing: 0.1vw;
-  color: white;
-  background: seagreen;
-  border-radius: 20px;
-  padding: 2% 3%;
-  text-transform: uppercase;
-  text-shadow: 0.3vw 0.07vw rgba(0, 0, 0, 0.7);
-  border: 0.4vw white solid;
-}
-
-.levelsScreen h1 {
-  margin: 3vw 0 5vw;
-}
-
-.levelsScreen .levelsBtnsWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0 3vw 5vw;
-
-  overflow-y: scroll;
-}
-
-.levelsScreen .levelNumberBtn {
-  width: 6vw;
-  height: 6vw;
-  margin: 1.5vw;
-  line-height: 6vw;
-  font-size: 4vw;
-  border-radius: 1vw;
-  text-align: center;
-  background: gold;
-  box-shadow: 0 3px 11px 2px #000000ba;
-  color: #462208;
-  cursor: pointer;
-}
-
-.levelsScreen .threeDigits {
-  font-size: 3vw;
+    color: white;
+    font-size: 8vw;
+    margin: 0 0 15vh 0;
+    text-shadow: 0.8vw 0.2vw rgba(0, 0, 0, 0.7);
 }
 
 .screen .backBtn {
-  font-size: 2vw;
-  font-weight: bold;
-  letter-spacing: 0.1vw;
-  color: white;
-  background: seagreen;
-  border-radius: 20px;
-  padding: 2% 3%;
-  text-transform: uppercase;
-  text-shadow: 0.3vw 0.07vw rgba(0, 0, 0, 0.7);
-  border: 0.4vw white solid;
-  margin: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    color: white;
+    background: seagreen;
+    border-radius: 20px;
+    padding: 2% 3%;
+    text-transform: uppercase;
+    text-shadow: 0.3vw 0.07vw rgba(0, 0, 0, 0.7);
+    border: 0.4vw white solid;
+    margin: 3vw;
+}
+
+.nextLevelBtn {
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    color: white;
+    background: seagreen;
+    border-radius: 20px;
+    padding: 2% 3%;
+    text-transform: uppercase;
+    text-shadow: 0.3vw 0.07vw rgba(0, 0, 0, 0.7);
+    border: 0.4vw white solid;
 }

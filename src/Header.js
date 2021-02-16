@@ -1,7 +1,26 @@
 import React from "react";
 import {SCREENS} from "./App";
 
+
+const requestFunction = document.body.requestFullscreen || document.body.webkitRequestFullscreen  || (() => {})
+const exitFunction = document.exitFullscreen || document.webkitExitFullscreen || (() => {})
+const toggleFullscreen = () => {
+    const fullScreenState = document.fullscreenElement || document.webkitIsFullScreen || false
+
+    if (fullScreenState) {
+        exitFunction.call(document)
+    } else {
+        requestFunction.call(document.body)
+    }
+
+    if (window.navigator.vibrate) {
+        window.navigator.vibrate(200);
+    }
+}
+
+
 export const Header = ({setActiveScreen, restartHandler, undoHandler}) => {
+
     return <div className="header">
         <button
             onClick={() => setActiveScreen(SCREENS.settings)}
@@ -42,5 +61,15 @@ export const Header = ({setActiveScreen, restartHandler, undoHandler}) => {
                 <use xlinkHref="#icon-undo"/>
             </svg>
         </button>
+
+        <button
+            onClick={toggleFullscreen}
+            className="fullscreenBtn btn"
+            title="Switch To Full Screen"
+        >
+            Fullscreen
+        </button>
+
+
     </div>
 }

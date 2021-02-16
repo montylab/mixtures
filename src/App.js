@@ -1,6 +1,6 @@
 import './css/App.css';
 import Tube from "./Tube";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {checkLevelCompletion} from "./levels.js";
 import {throttle} from "throttle-debounce";
 import NextScreen from "./NextScreen";
@@ -8,6 +8,7 @@ import LevelsScreen from "./LevelsScreen";
 import deepcopy from "deepcopy";
 import {Header} from "./Header";
 import SettingsScreen from "./SettingsScreen";
+import {sendAnalyticsEvent} from "./analytics";
 
 export const SCREENS = {
     game: 'game',
@@ -26,6 +27,23 @@ function App() {
     const [currentLevelIndex, setCurrentLevelIndex] = useState(0)
     const [activeScreen, setActiveScreen] = useState('gameScreen')
     const [actionHistory, setActionHistory] = useState([])
+
+    const setupLevel = (index = currentLevelIndex) => {
+        if (levels[index]) {
+            setTubes(deepcopy(levels[index]))
+            setActionHistory([])
+            setLevelComplete(false)
+            setActiveScreen(SCREENS.game)
+            setSelected(-1)
+            setCurrentLevelIndex(index)
+            localStorage.setItem('level', index.toString())
+        }
+    }
+
+    const localLevel = parseInt(localStorage.getItem('level'))
+    if (!isNaN(localLevel) && localLevel !== currentLevelIndex) {
+        setupLevel(localLevel)
+    }
 
     const manipulateTubes = (index) => {
         if (selected === -1) {
@@ -49,27 +67,17 @@ function App() {
 
                 setSelected(layersCount ? -1 : index)
             } else {
-                setSelected(index)
+                setSelected(selected === index ? -1 : index)
             }
         }
 
         if (checkLevelCompletion(tubes)) {
-
             setTimeout(() => {
                 setLevelComplete(true)
+                sendAnalyticsEvent('level_complete', {level: currentLevelIndex})
+                localStorage.setItem('last-completed-level', currentLevelIndex.toString())
                 setActiveScreen(SCREENS.nextLevel)
             }, 500)
-        }
-    }
-
-    const setupLevel = (index = currentLevelIndex) => {
-        if (levels[index]) {
-            setTubes(deepcopy(levels[index]))
-            setActionHistory([])
-            setLevelComplete(false)
-            setActiveScreen(SCREENS.game)
-            setSelected(-1)
-            setCurrentLevelIndex(index)
         }
     }
 
@@ -120,7 +128,7 @@ function App() {
         const lastAction = actionHistory.pop()
         if (lastAction) {
             const updTubes = deepcopy(tubes)
-            for (let i=0; i<lastAction.layers; i++) {
+            for (let i = 0; i < lastAction.layers; i++) {
                 updTubes[lastAction.from].push(updTubes[lastAction.to].pop())
             }
 
@@ -133,7 +141,7 @@ function App() {
         <div className="App">
             <Header
                 undoHandler={undo}
-                restartHandler={setupLevel}
+                restartHandler={() => setupLevel()}
                 setActiveScreen={setActiveScreen}
             />
 
