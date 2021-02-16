@@ -1,3 +1,5 @@
+import fs from "fs";
+
 const level = []
 
 const randomMove = (level, clearLastTwoRows = false) => {
@@ -15,8 +17,6 @@ const randomMove = (level, clearLastTwoRows = false) => {
     do {
         to = Math.round(Math.random() * (level.length - 1))
     } while (level[to].length === 4 || to === from || (clearLastTwoRows && to > level.length - 3))
-
-    console.log({from, to})
 
     level[to].push(level[from].pop())
 
@@ -42,18 +42,21 @@ const generate = (colors = 14, shuffleCounts = 100) => {
         randomMove(level)
     }
 
-    //clear last two tubes
-    // while (level[colors - 1].length) {
-    //     randomMove(level, true)
-    // }
-    console.log('cleaning')
-
     for (let i=0; i<8; i++) {
         randomMove(level, true)
     }
 
-
     return level
 }
 
-console.log(generate(11))
+const shrinkLevel = (level) => {
+    return level.flat().map(color => color.toString(32)).join('')
+}
+
+const levels = []
+for (let i=0; i<1000; i++) {
+    const colorsCount = Math.min(6 + Math.floor(i/10), 18)
+    levels[i] = generate(colorsCount)
+}
+
+fs.writeFileSync('./levels-setup.json', JSON.stringify(levels.map(shrinkLevel), null,2))
