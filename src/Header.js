@@ -43,6 +43,16 @@ export const Header = ({setActiveScreen, restartHandler, undoHandler}) => {
         </button>
 
         <button
+            onClick={toggleFullscreen}
+            className="fullscreenBtn btn linkBtn"
+            title="Switch To Full Screen"
+        >
+            <svg>
+                <use xlinkHref="#icon-fullscreen" />
+            </svg>
+        </button>
+
+        <button
             onClick={restartHandler}
             className="restartBtn btn linkBtn"
             title="Restart Level"
@@ -61,15 +71,5 @@ export const Header = ({setActiveScreen, restartHandler, undoHandler}) => {
                 <use xlinkHref="#icon-undo"/>
             </svg>
         </button>
-
-        <button
-            onClick={toggleFullscreen}
-            className="fullscreenBtn btn"
-            title="Switch To Full Screen"
-        >
-            Fullscreen
-        </button>
-
-
     </div>
 }

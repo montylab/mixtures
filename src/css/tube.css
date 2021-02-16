@@ -145,6 +145,20 @@
     background: seagreen;
 }
 
+.color-14 {
+    background: cadetblue;
+}
+
+.color-15 {
+    background: burlywood;
+}
+
+.color-16 {
+    background: darksalmon;
+}
+
+
+
 
 @media (max-width: 768px) {
     .App .level {
