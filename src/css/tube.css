@@ -1,19 +1,20 @@
 .tubeWrapper {
     position: relative;
     transition: all 0.3s ease;
+    margin: 0 auto;
 }
 
 .tube {
-    --tube-size: calc(20px + 4vw);
 
     position: relative;
     display: flex;
     flex-direction: column-reverse;
-    width: var(--tube-size);
-    height: calc(var(--tube-size) * 3.5);
-    margin: 0 calc(5px + var(--tube-size) / 5) calc(var(--tube-size) * 2);
+    width: clamp(40px, 10vw, 70px);
+    height: clamp(40px, 35vw, 20vh);
 
-    border-radius: 0 0 var(--tube-size) var(--tube-size);
+    margin: 0 auto 7vh;
+
+    border-radius: 0 0 100px 100px;
     overflow: hidden;
     cursor: pointer;
 }
@@ -163,12 +164,12 @@
         padding-top: 3vh;
     }
 
-    .tube {
-        --tube-size: calc(30px + 4vw);
-
-        height: calc(var(--tube-size) * 3);
-        margin: 0 calc(8px + var(--tube-size) / 10) calc(var(--tube-size) * 1.4);
-    }
+    /*.tube {*/
+    /*    --tube-size: calc(30px + 4vw);*/
+    /**/
+    /*    height: calc(var(--tube-size) * 3);*/
+    /*    margin: 0 calc(8px + var(--tube-size) / 10) calc(var(--tube-size) * 1.4);*/
+    /*}*/
 
     .tube-type-1 {
         border-width: 2px;
@@ -176,3 +177,4 @@
     }
 
 }
+

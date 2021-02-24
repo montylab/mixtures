@@ -1,5 +1,6 @@
 import React from 'react'
 import {SCREENS} from './App'
+import {vibrate} from './helpers'
 
 
 const requestFunction = document.body.requestFullscreen || document.body.webkitRequestFullscreen || (() => {
@@ -15,9 +16,7 @@ const toggleFullscreen = () => {
 		requestFunction.call(document.body)
 	}
 
-	if (window.navigator.vibrate) {
-		window.navigator.vibrate(200)
-	}
+	vibrate(200)
 }
 
 

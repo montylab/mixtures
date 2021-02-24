@@ -1,12 +1,16 @@
 import React from 'react'
 
-function Tube({layers = [], selected = false, hovered = false, onClick}) {
+const areas = 'abcdefghijklmn'
+
+function Tube({layers = [], selected = false, hovered = false, onClick, index}) {
 	const withEmpties = [...layers]
 	while (withEmpties.length < 4) {
 		withEmpties.push(0)
 	}
 	return (
-		<div className={`tubeWrapper ${selected ? 'selected' : ''} ${hovered ? 'hovered' : ''}`}>
+		<div
+			className={`tubeWrapper ${selected ? 'selected' : ''} ${hovered ? 'hovered' : ''}`}
+			style={{gridArea: areas[index]}}>
 			<div
 				className={`tube tube-type-1`}
 				onClick={onClick}

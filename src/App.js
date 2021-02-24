@@ -9,6 +9,7 @@ import deepcopy from 'deepcopy'
 import {Header} from './Header'
 import SettingsScreen from './SettingsScreen'
 import {sendAnalyticsEvent} from './analytics'
+import {vibrate} from './helpers'
 
 export const SCREENS = {
 	game: 'game',
@@ -48,6 +49,7 @@ function App() {
 
 	const setActiveScreen = (value) => {
 		setActiveScreenOriginal(value)
+		vibrate(100)
 		sendAnalyticsEvent('activate_screen-value', {level: currentLevelIndex})
 	}
 
@@ -93,8 +95,12 @@ function App() {
 					layersCount++
 				}
 
-				setActionHistory([...actionHistory, {from: selected, to: index, layers: layersCount}])
-				setTubes(tubes)
+				if (layersCount) {
+					setActionHistory([...actionHistory, {from: selected, to: index, layers: layersCount}])
+					setTubes(tubes)
+
+					vibrate(10)
+				}
 
 				setSelected(layersCount ? -1 : index)
 			} else {
@@ -103,6 +109,8 @@ function App() {
 		}
 
 		if (checkLevelCompletion(tubes)) {
+			vibrate([50, 50, 100, 50, 300])
+
 			setTimeout(() => {
 				setLevelComplete(true)
 
@@ -116,6 +124,8 @@ function App() {
 					solution: actionHistory,
 					time: (Date.now() - levelSetupTimestamp) / 1000
 				})
+
+
 			}, 500)
 		}
 	}
@@ -161,6 +171,13 @@ function App() {
 	window.onkeydown = throttle(100, false, keyupHandler)
 	window.onkeydown()
 
+	window.history.forward();
+	window.onpopstate = window.onunload = function (e) {
+		window.history.go(1);
+		e.preventDefault()
+	};
+
+
 	const clickTubeHandler = (index) => {
 		setArrowPosition(-1)
 		sendAnalyticsEvent('tube_clicked', {level: currentLevelIndex})
@@ -178,6 +195,7 @@ function App() {
 			setTubes(updTubes)
 			setActionHistory(actionHistory)
 			sendAnalyticsEvent('tube_left', {level: currentLevelIndex})
+			vibrate(70)
 		}
 	}
 
@@ -190,6 +208,7 @@ function App() {
 		})
 
 		setupLevel()
+		vibrate(150)
 	}
 
 	return (
@@ -200,18 +219,21 @@ function App() {
 				setActiveScreen={setActiveScreen}
 			/>
 
-			<h1 className="levelTitle">Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
+			<div className="levelWrapper">
+				<h1 className="levelTitle">Level: {currentLevelIndex + 1} {isLevelComplete && ' - completed!'}</h1>
 
-			<div className="level">
-				{tubes.map((layers, index) => (
-					<Tube
-						layers={layers}
-						selected={index === selected}
-						hovered={index === arrowPosition}
-						onClick={() => clickTubeHandler(index)}
-						key={index}
-					/>
-				))}
+				<div className={'level level-tubes-' + tubes.length}>
+					{tubes.map((layers, index) => (
+						<Tube
+							layers={layers}
+							selected={index === selected}
+							hovered={index === arrowPosition}
+							onClick={() => clickTubeHandler(index)}
+							index={index}
+							key={index}
+						/>
+					))}
+				</div>
 			</div>
 
 			<NextScreen
