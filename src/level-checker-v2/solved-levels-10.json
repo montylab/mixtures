@@ -1,0 +1,6302 @@
+[
+  {
+    "complexityFirst": 0.8,
+    "complexitySecond": 0.9669421487603306,
+    "totalSolutions": 79,
+    "level": "4496821776431227451aa128a899563378559a36:0.8:0.9669421487603306",
+    "time": 47.637
+  },
+  {
+    "complexityFirst": 0.5,
+    "complexitySecond": 0.8181818181818181,
+    "totalSolutions": 422,
+    "level": "22863339a78477543855a41a28126a5696714199:0.5:0.8181818181818181",
+    "time": 0.085
+  },
+  {
+    "complexityFirst": 0.4,
+    "complexitySecond": 0.8016528925619835,
+    "totalSolutions": 536,
+    "level": "21439369683257667a45173219a85a784a215489:0.4:0.8016528925619835",
+    "time": 0.592
+  },
+  {
+    "complexityFirst": 0.4,
+    "complexitySecond": 0.7768595041322314,
+    "totalSolutions": 605,
+    "level": "113339357882688a727416964496455227a915aa:0.4:0.7768595041322314",
+    "time": 1.434
+  },
+  {
+    "complexityFirst": 0.30000000000000004,
+    "complexitySecond": 0.743801652892562,
+    "totalSolutions": 630,
+    "level": "219691263aa7824599a77715653a658338124844:0.30000000000000004:0.743801652892562",
+    "time": 0.749
+  },
+  {
+    "complexityFirst": 0.30000000000000004,
+    "complexitySecond": 0.6694214876033058,
+    "totalSolutions": 954,
+    "level": "364a51997163274221935771246836a849a58a58:0.30000000000000004:0.6694214876033058",
+    "time": 10.14
+  },
+  {
+    "complexityFirst": 0.30000000000000004,
+    "complexitySecond": 0.6115702479338843,
+    "totalSolutions": 1076,
+    "level": "6a4476697389918962a23775512a8133124548a5:0.30000000000000004:0.6115702479338843",
+    "time": 12.328
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.6611570247933884,
+    "totalSolutions": 897,
+    "level": "34271988344a5799917a536671661a85222438a5:0.19999999999999996:0.6611570247933884",
+    "time": 15.078
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.5867768595041323,
+    "totalSolutions": 1439,
+    "level": "a7196314a1595857626598371a4282826a339447:0.19999999999999996:0.5867768595041323",
+    "time": 23.765
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.578512396694215,
+    "totalSolutions": 1240,
+    "level": "45a89a766143a286242194727981337515a86593:0.19999999999999996:0.578512396694215",
+    "time": 8.205
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.5619834710743802,
+    "totalSolutions": 1410,
+    "level": "811131542438397aa89a79a63576975542262864:0.19999999999999996:0.5619834710743802",
+    "time": 0.729
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.5454545454545454,
+    "totalSolutions": 1300,
+    "level": "463551724654329818a7597391732418a29a68a6:0.19999999999999996:0.5454545454545454",
+    "time": 8.229
+  },
+  {
+    "complexityFirst": 0.19999999999999996,
+    "complexitySecond": 0.5206611570247934,
+    "totalSolutions": 1541,
+    "level": "466768135128939a712485a7297a18532456a493:0.19999999999999996:0.5206611570247934",
+    "time": 0.083
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5619834710743802,
+    "totalSolutions": 1382,
+    "level": "713312165924929aa734824a519468535866a877:0.09999999999999998:0.5619834710743802",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5619834710743802,
+    "totalSolutions": 1668,
+    "level": "36a353477a472a969591176128219a4654882385:0.09999999999999998:0.5619834710743802",
+    "time": 1.395
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5454545454545454,
+    "totalSolutions": 1287,
+    "level": "5285a3793214148568627913a71a69762984435a:0.09999999999999998:0.5454545454545454",
+    "time": 1.223
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5454545454545454,
+    "totalSolutions": 1475,
+    "level": "952a745327a762489628415581a7a96363148139:0.09999999999999998:0.5454545454545454",
+    "time": 4.78
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5371900826446281,
+    "totalSolutions": 1320,
+    "level": "18a46949aa39838a583543775166767222152419:0.09999999999999998:0.5371900826446281",
+    "time": 0.055
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5289256198347108,
+    "totalSolutions": 1346,
+    "level": "63421117219347a659432aa26389a65754897588:0.09999999999999998:0.5289256198347108",
+    "time": 17.335
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5206611570247934,
+    "totalSolutions": 1303,
+    "level": "5a1219796835244a5a1929334657874728366a18:0.09999999999999998:0.5206611570247934",
+    "time": 0.47
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5206611570247934,
+    "totalSolutions": 1342,
+    "level": "359896751a423644a6835121a2729713568894a7:0.09999999999999998:0.5206611570247934",
+    "time": 0.199
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.5123966942148761,
+    "totalSolutions": 1214,
+    "level": "41238177a3395616142274a573998a64a5689528:0.09999999999999998:0.5123966942148761",
+    "time": 0.209
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1315,
+    "level": "225799313a55669458a81a3886941a7416277432:0.09999999999999998:0.49586776859504134",
+    "time": 4.941
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1482,
+    "level": "428a97152412355254138397376418a78699aa66:0.09999999999999998:0.49586776859504134",
+    "time": 0.092
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.487603305785124,
+    "totalSolutions": 1304,
+    "level": "8a16aa259191573476281243433526a845996877:0.09999999999999998:0.487603305785124",
+    "time": 0.634
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.487603305785124,
+    "totalSolutions": 1361,
+    "level": "2919544578236842376955a848a7a69332116a17:0.09999999999999998:0.487603305785124",
+    "time": 0.17
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.47933884297520657,
+    "totalSolutions": 1609,
+    "level": "1a148361972564a584a3199228983277657534a6:0.09999999999999998:0.47933884297520657",
+    "time": 10.911
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.47107438016528924,
+    "totalSolutions": 1195,
+    "level": "931437155788821691262a392364a577968a454a:0.09999999999999998:0.47107438016528924",
+    "time": 376.26
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4628099173553719,
+    "totalSolutions": 1510,
+    "level": "341323117aa85179686652a2846494a398755927:0.09999999999999998:0.4628099173553719",
+    "time": 0.698
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.44628099173553715,
+    "totalSolutions": 1583,
+    "level": "45aa4978516243a9629267356114a58823773189:0.09999999999999998:0.44628099173553715",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.44628099173553715,
+    "totalSolutions": 1789,
+    "level": "41617345869735a4281283a253176a672a985994:0.09999999999999998:0.44628099173553715",
+    "time": 40.846
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.44628099173553715,
+    "totalSolutions": 1738,
+    "level": "266a1487a951549319473217878a26523386a954:0.09999999999999998:0.44628099173553715",
+    "time": 0.645
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1574,
+    "level": "317658347a912465821455a178829733a69a2694:0.09999999999999998:0.4297520661157025",
+    "time": 5.485
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1564,
+    "level": "32738115418476a58184622a572a399634997a56:0.09999999999999998:0.4297520661157025",
+    "time": 0.324
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.42148760330578516,
+    "totalSolutions": 1620,
+    "level": "356a593a67845a4231172295796849878341a612:0.09999999999999998:0.42148760330578516",
+    "time": 0.626
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1871,
+    "level": "a921a573435226648a9111743652876974988a53:0.09999999999999998:0.4132231404958677",
+    "time": 1.607
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1555,
+    "level": "a585882a317399a1535a34461627129248647967:0.09999999999999998:0.4132231404958677",
+    "time": 16.055
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1762,
+    "level": "4127a3827321698486358a915a6951a236947547:0.09999999999999998:0.4049586776859504",
+    "time": 1.426
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1659,
+    "level": "92a7957163561a72824371a39681544286a95438:0.09999999999999998:0.4049586776859504",
+    "time": 2.019
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1471,
+    "level": "46824677322378a9456a6145a1997a1833185952:0.09999999999999998:0.39669421487603307",
+    "time": 0.073
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1604,
+    "level": "4322598871286653a67651234197994aaa854731:0.09999999999999998:0.38842975206611574",
+    "time": 0.189
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1630,
+    "level": "a144289581634917796a6733543a228278195a65:0.09999999999999998:0.3801652892561983",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1808,
+    "level": "27942a36275141731a465993a61876824585398a:0.09999999999999998:0.371900826446281",
+    "time": 0.695
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1810,
+    "level": "46296767918523952a731597a581a186382344a4:0.09999999999999998:0.36363636363636365",
+    "time": 0.329
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1846,
+    "level": "862aa65147951935a128a9731238968736742454:0.09999999999999998:0.36363636363636365",
+    "time": 3.732
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1797,
+    "level": "49261374a368457a7162121a8658a75235394989:0.09999999999999998:0.36363636363636365",
+    "time": 0.356
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 2035,
+    "level": "a5315821733765567878a64196229a1834249a49:0.09999999999999998:0.3553719008264463",
+    "time": 2.528
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1750,
+    "level": "156372a698751699245115a733a294682873a448:0.09999999999999998:0.3471074380165289",
+    "time": 1.746
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1829,
+    "level": "3687817453259316a22a219668594434a815a797:0.09999999999999998:0.33884297520661155",
+    "time": 0.703
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2086,
+    "level": "216a692688569473853a91921a3857214437a547:0.09999999999999998:0.3305785123966942",
+    "time": 1.692
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1780,
+    "level": "422497935371456181a2996a4561237a638a8758:0.09999999999999998:0.3305785123966942",
+    "time": 0.101
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1622,
+    "level": "878a73361691266129485577532244a51a9483a9:0.09999999999999998:0.3223140495867769",
+    "time": 0.256
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1902,
+    "level": "689a28958822176443a995741a361531277a6435:0.09999999999999998:0.31404958677685946",
+    "time": 0.216
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1828,
+    "level": "651239832a4736577a81249a256934419a868715:0.09999999999999998:0.2892561983471075",
+    "time": 0.499
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1999,
+    "level": "8a1825994149275631637a586175a8a249432637:0.09999999999999998:0.2892561983471075",
+    "time": 0.148
+  },
+  {
+    "complexityFirst": 0.09999999999999998,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2221,
+    "level": "193784452939a61a638178a145a2598672234567:0.09999999999999998:0.28099173553719003",
+    "time": 0.165
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.7107438016528926,
+    "totalSolutions": 835,
+    "level": "955295584a3328a14784a6893411217267697a36:0:0.7107438016528926",
+    "time": 0.187
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.6694214876033058,
+    "totalSolutions": 1103,
+    "level": "1a3844a5256845612771983396957392a1a26847:0:0.6694214876033058",
+    "time": 0.143
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.6528925619834711,
+    "totalSolutions": 1146,
+    "level": "784a131464a25878639234521198aa6326557997:0:0.6528925619834711",
+    "time": 7.351
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.628099173553719,
+    "totalSolutions": 1062,
+    "level": "2316138848741266968a3122497aa97a35947555:0:0.628099173553719",
+    "time": 0.882
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.6033057851239669,
+    "totalSolutions": 1064,
+    "level": "37915957a79544688443162293581861a73a622a:0:0.6033057851239669",
+    "time": 0.175
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5537190082644627,
+    "totalSolutions": 1459,
+    "level": "9a48891241555617a7a6375a8427326312934698:0:0.5537190082644627",
+    "time": 0.71
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5537190082644627,
+    "totalSolutions": 1247,
+    "level": "251a4314a3986724457a863839997a6181255762:0:0.5537190082644627",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5454545454545454,
+    "totalSolutions": 1218,
+    "level": "1131879963974422536857351824852aa69a46a7:0:0.5454545454545454",
+    "time": 0.246
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5371900826446281,
+    "totalSolutions": 1381,
+    "level": "128692543373a54949777a83a84651a261826519:0:0.5371900826446281",
+    "time": 0.332
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5289256198347108,
+    "totalSolutions": 1193,
+    "level": "611a842a39923a47768359264a78845175935126:0:0.5289256198347108",
+    "time": 0.326
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5206611570247934,
+    "totalSolutions": 1292,
+    "level": "29aa14955864316a28973232776895614a378541:0:0.5206611570247934",
+    "time": 0.192
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5206611570247934,
+    "totalSolutions": 1421,
+    "level": "156a39914927179366458aa4681277855a438223:0:0.5206611570247934",
+    "time": 116.354
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.5123966942148761,
+    "totalSolutions": 1022,
+    "level": "43aa55a8972622956577a1744118319368648932:0:0.5123966942148761",
+    "time": 0.528
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1449,
+    "level": "384458136411943782229587372a565aa6a69791:0:0.49586776859504134",
+    "time": 0.178
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1481,
+    "level": "2919377791234a896a8756a25441a46538251683:0:0.49586776859504134",
+    "time": 1.836
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1383,
+    "level": "2111836a39395792265484a57a586173967244a8:0:0.49586776859504134",
+    "time": 1.666
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1308,
+    "level": "3846485aa437283a1312a6265179745759992168:0:0.49586776859504134",
+    "time": 1.012
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1299,
+    "level": "221a928697551879833a1934167654a243756a48:0:0.49586776859504134",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.49586776859504134,
+    "totalSolutions": 1297,
+    "level": "1196454399a331926a4655412327a2a887787568:0:0.49586776859504134",
+    "time": 6.001
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.487603305785124,
+    "totalSolutions": 1406,
+    "level": "4297a9624321928a69537888a541576437311a56:0:0.487603305785124",
+    "time": 0.074
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.487603305785124,
+    "totalSolutions": 1405,
+    "level": "1566812482797231972754659a1a4a548339638a:0:0.487603305785124",
+    "time": 0.3
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.487603305785124,
+    "totalSolutions": 1412,
+    "level": "4187588962a7963761a1a32245a4935937128465:0:0.487603305785124",
+    "time": 0.202
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.47933884297520657,
+    "totalSolutions": 1507,
+    "level": "42386984573776251aaa43a15137892295614698:0:0.47933884297520657",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.47107438016528924,
+    "totalSolutions": 1516,
+    "level": "5a9a3472959621aa761572116433264588788943:0:0.47107438016528924",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.47107438016528924,
+    "totalSolutions": 1381,
+    "level": "9866595274472a9a274186a23357481a51381369:0:0.47107438016528924",
+    "time": 0.469
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.47107438016528924,
+    "totalSolutions": 1508,
+    "level": "783289653214a996212687314437859657a514aa:0:0.47107438016528924",
+    "time": 4.303
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4628099173553719,
+    "totalSolutions": 1640,
+    "level": "4a9a6428821794117652156a7429a75538393683:0:0.4628099173553719",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4628099173553719,
+    "totalSolutions": 1312,
+    "level": "28a12958163482546a7274396457116a5a339798:0:0.4628099173553719",
+    "time": 0.084
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1752,
+    "level": "7422486a12562995936a838aa648731379114755:0:0.4545454545454546",
+    "time": 0.29
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1558,
+    "level": "8371577294a351aa82861469315376249a582649:0:0.4545454545454546",
+    "time": 0.095
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1299,
+    "level": "754138914552664576829931a84a2a373a728196:0:0.4545454545454546",
+    "time": 0.383
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1566,
+    "level": "85161823a4376aa497a834134512285679969527:0:0.4545454545454546",
+    "time": 1.017
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1718,
+    "level": "32a438965253929117614758a241894673aa5678:0:0.4545454545454546",
+    "time": 0.128
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1693,
+    "level": "96541393a7925758112249642684a3577816a83a:0:0.4545454545454546",
+    "time": 0.148
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4545454545454546,
+    "totalSolutions": 1526,
+    "level": "811678a34973354a25a238a75162944992566817:0:0.4545454545454546",
+    "time": 1.263
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1677,
+    "level": "1139a6257a8883a923541641a622534777498569:0:0.4380165289256198",
+    "time": 0.179
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1434,
+    "level": "41881292378559643a618a62694294a737571a53:0:0.4380165289256198",
+    "time": 0.22
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 2029,
+    "level": "1268a94747a53231828741553a694793862a9165:0:0.4380165289256198",
+    "time": 0.08
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1429,
+    "level": "162651191896779a535a62443a4a274888753293:0:0.4380165289256198",
+    "time": 0.821
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1801,
+    "level": "61317aa51683834654422579a81539769789224a:0:0.4380165289256198",
+    "time": 0.074
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1397,
+    "level": "16691156a32a561a92832847394477848a392557:0:0.4380165289256198",
+    "time": 0.091
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1234,
+    "level": "69423176893a996a5883175a3251a44216854277:0:0.4380165289256198",
+    "time": 0.064
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4380165289256198,
+    "totalSolutions": 1591,
+    "level": "589a7973141a2923348172189462a8665547365a:0:0.4380165289256198",
+    "time": 1.665
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1814,
+    "level": "81a4477135a36a986746892521315a9689235247:0:0.4297520661157025",
+    "time": 0.848
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1972,
+    "level": "3421a498a66a3217748a14835795725369152986:0:0.4297520661157025",
+    "time": 2.221
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1809,
+    "level": "1716164971395a2424a97567263843329858a85a:0:0.4297520661157025",
+    "time": 0.08
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1353,
+    "level": "482a6226561759892a13841938a49a7513734657:0:0.4297520661157025",
+    "time": 0.35
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1623,
+    "level": "a627a68215128291a5334785139479a476685934:0:0.4297520661157025",
+    "time": 10.862
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1404,
+    "level": "1177694a94866983272514a3836555232791a84a:0:0.4297520661157025",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4297520661157025,
+    "totalSolutions": 1487,
+    "level": "821378945693a115a22367a4761863459a952487:0:0.4297520661157025",
+    "time": 175.606
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.42148760330578516,
+    "totalSolutions": 2057,
+    "level": "45a2289632534a7314a37165289718415896967a:0:0.42148760330578516",
+    "time": 8.353
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.42148760330578516,
+    "totalSolutions": 1680,
+    "level": "4446112925632a2765a88839a563314779a18579:0:0.42148760330578516",
+    "time": 0.152
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.42148760330578516,
+    "totalSolutions": 2018,
+    "level": "76491545839712975663314a82983125a62a8a47:0:0.42148760330578516",
+    "time": 7.061
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.42148760330578516,
+    "totalSolutions": 1543,
+    "level": "14572539881358627a67941a23594248aa197636:0:0.42148760330578516",
+    "time": 0.179
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1600,
+    "level": "8136aa39587752496316894921475465312a278a:0:0.4132231404958677",
+    "time": 0.088
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1587,
+    "level": "18628911a6a755994342523943517a7467a88236:0:0.4132231404958677",
+    "time": 0.065
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1531,
+    "level": "93877158236171226795693285a195436448aaa4:0:0.4132231404958677",
+    "time": 0.423
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1478,
+    "level": "68a191548395536362a4a722194531a649287877:0:0.4132231404958677",
+    "time": 0.233
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1828,
+    "level": "94a9865187841614812232a65543a5797293a673:0:0.4132231404958677",
+    "time": 0.125
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1630,
+    "level": "1277139649793a4258a18412a855a78366523694:0:0.4132231404958677",
+    "time": 3.352
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1699,
+    "level": "154638856a9657a9286817495371a1223944a723:0:0.4132231404958677",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1482,
+    "level": "a8647467511212672595963133429475a8aa8398:0:0.4132231404958677",
+    "time": 0.106
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1846,
+    "level": "52394696a29178216329753615814a54783748aa:0:0.4132231404958677",
+    "time": 0.218
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4132231404958677,
+    "totalSolutions": 1766,
+    "level": "242a4a158162146375623885153946879a9a7937:0:0.4132231404958677",
+    "time": 55.983
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1689,
+    "level": "2711a4a423636732a84418188a79357565996952:0:0.4049586776859504",
+    "time": 0.117
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1744,
+    "level": "a61247a588937a135a6691877965824214533429:0:0.4049586776859504",
+    "time": 0.341
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1388,
+    "level": "119973841a534412296a936557228586437a678a:0:0.4049586776859504",
+    "time": 0.45
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1704,
+    "level": "68a27388369165744a5295377a443118a9512962:0:0.4049586776859504",
+    "time": 0.199
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.4049586776859504,
+    "totalSolutions": 1735,
+    "level": "256526619124a837a519a343479a488735612798:0:0.4049586776859504",
+    "time": 19.924
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1777,
+    "level": "48263485a6459173a921718a543578269a296317:0:0.39669421487603307",
+    "time": 0.251
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1787,
+    "level": "32951885a692239144a87976453731466aa78512:0:0.39669421487603307",
+    "time": 0.335
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1768,
+    "level": "621724819354536521a6a3a7a521488369879479:0:0.39669421487603307",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1811,
+    "level": "42279a68856154a73564394798315a116392a287:0:0.39669421487603307",
+    "time": 0.197
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1620,
+    "level": "21a3595446683429113a825a39846177862a9757:0:0.39669421487603307",
+    "time": 1.409
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1763,
+    "level": "782175a46a582178299663a543981a3715426943:0:0.39669421487603307",
+    "time": 34.485
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1613,
+    "level": "219289a37965a47141538a647a65242185383697:0:0.39669421487603307",
+    "time": 0.785
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.39669421487603307,
+    "totalSolutions": 1603,
+    "level": "4493791176663182855224aa173a85a842637995:0:0.39669421487603307",
+    "time": 0.329
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1708,
+    "level": "72a2a6573a5323198378641961948962455a7418:0:0.38842975206611574",
+    "time": 0.573
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1771,
+    "level": "32a7963989815924527676464873a283115154aa:0:0.38842975206611574",
+    "time": 0.141
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 2082,
+    "level": "a43867679223153731872446861951985aa2a945:0:0.38842975206611574",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1768,
+    "level": "27798216a93211679145a639644253587aa35488:0:0.38842975206611574",
+    "time": 0.109
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1626,
+    "level": "7216531793416685a64a3382552aa87214794899:0:0.38842975206611574",
+    "time": 6.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1739,
+    "level": "13a86486a13389942517285747916a59523276a4:0:0.38842975206611574",
+    "time": 0.084
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1344,
+    "level": "3468a1726231472a74568132137998559aa45698:0:0.38842975206611574",
+    "time": 0.156
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1650,
+    "level": "5298459a96a32126367169248358a757817a4143:0:0.38842975206611574",
+    "time": 0.117
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1485,
+    "level": "1189aa767755631923491a55a798236632884442:0:0.38842975206611574",
+    "time": 0.145
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.38842975206611574,
+    "totalSolutions": 1665,
+    "level": "87692571736a21912938443a64884a237555961a:0:0.38842975206611574",
+    "time": 0.093
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1706,
+    "level": "63299588274548aa761575112a6a329893446317:0:0.3801652892561983",
+    "time": 0.151
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 2069,
+    "level": "a84149318196984a5a653a469285122567732377:0:0.3801652892561983",
+    "time": 0.25
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1740,
+    "level": "626918778253a5183273453a71859649a94a1264:0:0.3801652892561983",
+    "time": 0.196
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1626,
+    "level": "682164791937258952a58273a14496a134867a35:0:0.3801652892561983",
+    "time": 0.922
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1928,
+    "level": "a99436a81941736a571841573258246679a25238:0:0.3801652892561983",
+    "time": 0.103
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1940,
+    "level": "67128a9556926237a264853814a3a48719943571:0:0.3801652892561983",
+    "time": 0.207
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1633,
+    "level": "73a788463562242988455a11672967151343a9a9:0:0.3801652892561983",
+    "time": 0.231
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1669,
+    "level": "814196537924a78155a7a1276343942269885a63:0:0.3801652892561983",
+    "time": 0.182
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1795,
+    "level": "5366344963158177a78572a24a98682549131a29:0:0.3801652892561983",
+    "time": 0.073
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1555,
+    "level": "231a855198977284149a26816727a634534a5936:0:0.3801652892561983",
+    "time": 0.384
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 1702,
+    "level": "545a892766531aa9151228497a48384169372763:0:0.3801652892561983",
+    "time": 0.447
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3801652892561983,
+    "totalSolutions": 2206,
+    "level": "981251947a1732a79674212486585a864936a533:0:0.3801652892561983",
+    "time": 2.271
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 2215,
+    "level": "9876161319255a2a87468392434a525a17937846:0:0.371900826446281",
+    "time": 0.377
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1702,
+    "level": "3254196a3a871a6475851463277528a194923698:0:0.371900826446281",
+    "time": 1.729
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1952,
+    "level": "441579173391583a9645582aa2a7686784622139:0:0.371900826446281",
+    "time": 6.547
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1846,
+    "level": "96437692682185a545713547a29283934a67118a:0:0.371900826446281",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1507,
+    "level": "495361129737a682a45442a65119687935237a88:0:0.371900826446281",
+    "time": 0.565
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1779,
+    "level": "122784a3a96115479778643165359a863a248529:0:0.371900826446281",
+    "time": 0.173
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1763,
+    "level": "852217943755a3a9928844166779825431a661a3:0:0.371900826446281",
+    "time": 0.31
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1630,
+    "level": "7212729983643449168a6875a13192aa73845565:0:0.371900826446281",
+    "time": 0.092
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1726,
+    "level": "2268533a697416a18357a924881247765a549319:0:0.371900826446281",
+    "time": 0.527
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1923,
+    "level": "46a41a312986a2636598272471719a9858754353:0:0.371900826446281",
+    "time": 0.143
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 2031,
+    "level": "6118527a2a931694747a9496a823268458553173:0:0.371900826446281",
+    "time": 1.469
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.371900826446281,
+    "totalSolutions": 1762,
+    "level": "759348a59624586323a92a118129354717864a67:0:0.371900826446281",
+    "time": 0.09
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1584,
+    "level": "26448533a1242a77728165539319a856796a4189:0:0.36363636363636365",
+    "time": 0.152
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1620,
+    "level": "13327775a149849132635258197264498a85a66a:0:0.36363636363636365",
+    "time": 3.494
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1765,
+    "level": "921a12668758753899a9612144363423a74585a7:0:0.36363636363636365",
+    "time": 0.185
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1644,
+    "level": "73117869822443a56941a42273355a9589876a16:0:0.36363636363636365",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1958,
+    "level": "6482685523171993765a89136aa344417272a958:0:0.36363636363636365",
+    "time": 0.203
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1848,
+    "level": "432aa714a8171435967383296575128495966a28:0:0.36363636363636365",
+    "time": 0.142
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1988,
+    "level": "79aa1732466525474895a9318681a74632893215:0:0.36363636363636365",
+    "time": 0.087
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 2114,
+    "level": "469869876532221a1557849a241687593a313a47:0:0.36363636363636365",
+    "time": 0.174
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 2019,
+    "level": "a1a7486885163522367765231a57484499931a92:0:0.36363636363636365",
+    "time": 0.079
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1689,
+    "level": "9157a356aa46786719238583524941186729324a:0:0.36363636363636365",
+    "time": 0.15
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1675,
+    "level": "75594582a4711a39a9194726382356a867862134:0:0.36363636363636365",
+    "time": 0.825
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1734,
+    "level": "87838627461244516655739981932aa739a12a45:0:0.36363636363636365",
+    "time": 0.564
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 2123,
+    "level": "93a3712175318896a4688751324a5a5449672629:0:0.36363636363636365",
+    "time": 0.097
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1844,
+    "level": "6432176773a54685a754a48168923991259132a8:0:0.36363636363636365",
+    "time": 2.667
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 2038,
+    "level": "71699231a2a41568431974437a7562a326898855:0:0.36363636363636365",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1547,
+    "level": "4aa1418175776129286833a38542a69952653947:0:0.36363636363636365",
+    "time": 0.07
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1541,
+    "level": "16547714955736892933861aa24a6482178935a2:0:0.36363636363636365",
+    "time": 2.029
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1619,
+    "level": "6a55314852336274746879a11a9215287948936a:0:0.36363636363636365",
+    "time": 0.078
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.36363636363636365,
+    "totalSolutions": 1847,
+    "level": "22147a137898634475752a96a15a383512668994:0:0.36363636363636365",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1528,
+    "level": "5129646591162478347915a596233827aa34887a:0:0.3553719008264463",
+    "time": 0.159
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1803,
+    "level": "36685512793a26a844114277a949569818a73532:0:0.3553719008264463",
+    "time": 2.229
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 2127,
+    "level": "112225623185644a579313476a8378699a749a85:0:0.3553719008264463",
+    "time": 0.254
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1453,
+    "level": "21889a3358a637115997662216895a434274475a:0:0.3553719008264463",
+    "time": 0.077
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 2356,
+    "level": "176592385729982a2496143381378756415a6a4a:0:0.3553719008264463",
+    "time": 0.257
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1521,
+    "level": "3311986329a57a551182664285742a4983a97647:0:0.3553719008264463",
+    "time": 0.487
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1730,
+    "level": "354788793229334411a8156294a25665aa791678:0:0.3553719008264463",
+    "time": 0.138
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1631,
+    "level": "147a196a833a2945a24869717262571355934886:0:0.3553719008264463",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1828,
+    "level": "2a61583376716451a9783749a8585129392446a2:0:0.3553719008264463",
+    "time": 0.319
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1572,
+    "level": "18a8254a789619423583431571573aa622949676:0:0.3553719008264463",
+    "time": 0.097
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1506,
+    "level": "174a4193562a3485242a5768267781136a358999:0:0.3553719008264463",
+    "time": 3.686
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1868,
+    "level": "22541996a8945a256546171983a816847233a737:0:0.3553719008264463",
+    "time": 0.084
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1932,
+    "level": "348652431aa112a967873a188262954775539469:0:0.3553719008264463",
+    "time": 0.508
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3553719008264463,
+    "totalSolutions": 1909,
+    "level": "42a251985318a3419243a55948617a2867663797:0:0.3553719008264463",
+    "time": 0.088
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1548,
+    "level": "889923119766a796851336aa5a52134747248524:0:0.3471074380165289",
+    "time": 0.458
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1799,
+    "level": "565118a66222874549733173a988a46195934a72:0:0.3471074380165289",
+    "time": 0.077
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 2015,
+    "level": "1498977aa115561a87642532839a732234594866:0:0.3471074380165289",
+    "time": 0.239
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1625,
+    "level": "3414a26869911546a3a57992736852a431278875:0:0.3471074380165289",
+    "time": 1.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1795,
+    "level": "29a956385aa36171274893557314a14628984762:0:0.3471074380165289",
+    "time": 0.291
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 2041,
+    "level": "a2694a2788a11678387569623295791413345a45:0:0.3471074380165289",
+    "time": 0.169
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1611,
+    "level": "7114a969577322481a85a21934765326954a3868:0:0.3471074380165289",
+    "time": 0.936
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1939,
+    "level": "623883179527145684821977365a369aa19a2445:0:0.3471074380165289",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1981,
+    "level": "2a2854613736262559871317894485a971aa3496:0:0.3471074380165289",
+    "time": 0.249
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1617,
+    "level": "8789447a13528856152343299617669a5241a73a:0:0.3471074380165289",
+    "time": 0.457
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1664,
+    "level": "11463723aa58851724564833297974a15a682969:0:0.3471074380165289",
+    "time": 0.172
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 1728,
+    "level": "87a4a25694861a296624783534183a7792319515:0:0.3471074380165289",
+    "time": 0.103
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3471074380165289,
+    "totalSolutions": 2016,
+    "level": "323a8971a14116224a9748953856a95686527734:0:0.3471074380165289",
+    "time": 0.206
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1860,
+    "level": "83161498a5a55852736897441a9716a243239267:0:0.33884297520661155",
+    "time": 0.143
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1814,
+    "level": "28873996131a7222658a41771543934a45a66598:0:0.33884297520661155",
+    "time": 0.347
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1738,
+    "level": "21237937a93418192285848659645a7451673a6a:0:0.33884297520661155",
+    "time": 0.696
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1452,
+    "level": "33592963114795564837a416a179a858822a6742:0:0.33884297520661155",
+    "time": 0.325
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1827,
+    "level": "9337a21214663145a2651869877a3a4898255947:0:0.33884297520661155",
+    "time": 0.17
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1944,
+    "level": "67451545a9a84591116399a82a78267368237324:0:0.33884297520661155",
+    "time": 0.164
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 2153,
+    "level": "81a425689544883721a7635169a29243957736a1:0:0.33884297520661155",
+    "time": 0.117
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 2179,
+    "level": "841595244a16a179a8383426912a656778273539:0:0.33884297520661155",
+    "time": 0.171
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1940,
+    "level": "223943a917258a546983958151734a467826167a:0:0.33884297520661155",
+    "time": 0.083
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1836,
+    "level": "2961a577858333452a6984717486524139129aa6:0:0.33884297520661155",
+    "time": 0.066
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 2132,
+    "level": "141556a38a4286992a28717873924534a3591667:0:0.33884297520661155",
+    "time": 0.184
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 2118,
+    "level": "197215859271396a3a5a12844663387a72546849:0:0.33884297520661155",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1572,
+    "level": "9a188694a2236146532713a7675484835751929a:0:0.33884297520661155",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1745,
+    "level": "135291824a82796811752438736634a969a4557a:0:0.33884297520661155",
+    "time": 0.215
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1962,
+    "level": "511934151778238469256634a92a77864a2893a5:0:0.33884297520661155",
+    "time": 0.735
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.33884297520661155,
+    "totalSolutions": 1841,
+    "level": "172a86785736573462312164a39a84599a128594:0:0.33884297520661155",
+    "time": 0.332
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1989,
+    "level": "414975856727826aa4289164a3158373a9631529:0:0.3305785123966942",
+    "time": 0.305
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1632,
+    "level": "66236124122778aa861837715595a9a393598444:0:0.3305785123966942",
+    "time": 0.462
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1708,
+    "level": "63aa21985777691492593725a8281336581446a4:0:0.3305785123966942",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1850,
+    "level": "41657434911a983742a882552662961937a7358a:0:0.3305785123966942",
+    "time": 0.126
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1488,
+    "level": "336787214499a66558811a99222a5718344367a5:0:0.3305785123966942",
+    "time": 0.285
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2146,
+    "level": "716aa2932668873541743897a224598a51316594:0:0.3305785123966942",
+    "time": 0.264
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2303,
+    "level": "2916363a732919285689472aa57a413645158478:0:0.3305785123966942",
+    "time": 0.101
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2074,
+    "level": "45675181899359963a2427412287a8365a716a34:0:0.3305785123966942",
+    "time": 37.836
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1960,
+    "level": "11a3753992a436267679462884358711525a8a49:0:0.3305785123966942",
+    "time": 0.342
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2044,
+    "level": "39156428133a21726856541a749995a34728687a:0:0.3305785123966942",
+    "time": 0.1
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 2201,
+    "level": "869a221445a841866374213a7959317273565a98:0:0.3305785123966942",
+    "time": 0.173
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1857,
+    "level": "18299152727136741839a758829366aa46445a53:0:0.3305785123966942",
+    "time": 0.283
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3305785123966942,
+    "totalSolutions": 1857,
+    "level": "34466a355218a457a18798249311a82377256996:0:0.3305785123966942",
+    "time": 41.981
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1797,
+    "level": "35871523a98865932484171966a96aa172744352:0:0.3223140495867769",
+    "time": 0.086
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1997,
+    "level": "124526878315241761354a2795973a8864a3996a:0:0.3223140495867769",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 2104,
+    "level": "12292aa8374a183261a347488676959531957465:0:0.3223140495867769",
+    "time": 0.198
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 2198,
+    "level": "14712698979344972a585388a31561264a65237a:0:0.3223140495867769",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1980,
+    "level": "21935975113676379528213592484a6a746a884a:0:0.3223140495867769",
+    "time": 0.176
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1648,
+    "level": "72856155164777a91939449548612338aa8a2236:0:0.3223140495867769",
+    "time": 2.199
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 2007,
+    "level": "3726532574248aa831a6547649911398a8176925:0:0.3223140495867769",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1920,
+    "level": "17318538a674278642a96399a8751145532a6249:0:0.3223140495867769",
+    "time": 0.137
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 2272,
+    "level": "93117332245878699387a61649a417625a585a24:0:0.3223140495867769",
+    "time": 0.781
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1869,
+    "level": "35314522869381aa846127836574a2a977699145:0:0.3223140495867769",
+    "time": 0.121
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1791,
+    "level": "739736548771588319264a641265a4912a52389a:0:0.3223140495867769",
+    "time": 1.976
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1678,
+    "level": "968a112888749327371965751434a92325a6a546:0:0.3223140495867769",
+    "time": 0.221
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1893,
+    "level": "4a8859121139694565aa7481272539332a466787:0:0.3223140495867769",
+    "time": 0.1
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.3223140495867769,
+    "totalSolutions": 1815,
+    "level": "38989365a45726a22737794293a11a6584841516:0:0.3223140495867769",
+    "time": 0.155
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2193,
+    "level": "2465819a893a762788163a959434314562a57217:0:0.31404958677685946",
+    "time": 0.215
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1974,
+    "level": "73a255aa16741378844274866a92559913123968:0:0.31404958677685946",
+    "time": 0.758
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1512,
+    "level": "211794293a15787a2453336a55668a9469247188:0:0.31404958677685946",
+    "time": 0.185
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1998,
+    "level": "8115989392847244a79136aa763157325668a524:0:0.31404958677685946",
+    "time": 0.105
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2013,
+    "level": "2179613236869a377a5455418988a2413297456a:0:0.31404958677685946",
+    "time": 0.294
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1955,
+    "level": "469283973a768536218a841274a29591a7615345:0:0.31404958677685946",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2178,
+    "level": "538179543a96757139614437858218292a662a4a:0:0.31404958677685946",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1793,
+    "level": "38a7195a585649346a29376118822447315a2967:0:0.31404958677685946",
+    "time": 0.197
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2100,
+    "level": "22548464918a89689765977a57641231321a533a:0:0.31404958677685946",
+    "time": 1.556
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2218,
+    "level": "2154246a59271a69378a5616538978238a413479:0:0.31404958677685946",
+    "time": 0.114
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1826,
+    "level": "22893361975a16aa34776141345a658849725928:0:0.31404958677685946",
+    "time": 0.078
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 1932,
+    "level": "923654113258aa8177a1458495666233792849a7:0:0.31404958677685946",
+    "time": 0.057
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2256,
+    "level": "42a68754173269311592785483146a26a395a798:0:0.31404958677685946",
+    "time": 0.153
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2050,
+    "level": "829369351771864831142275648a9673aaa54925:0:0.31404958677685946",
+    "time": 0.066
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2179,
+    "level": "52143186429754a176173a63a728992685438a59:0:0.31404958677685946",
+    "time": 0.177
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.31404958677685946,
+    "totalSolutions": 2471,
+    "level": "424a1529135a8225756418939814976a6786337a:0:0.31404958677685946",
+    "time": 0.2
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2312,
+    "level": "694861187731a52435614a8a532a939689257724:0:0.30578512396694213",
+    "time": 0.188
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1922,
+    "level": "2194735a971257468698a84a318367456912325a:0:0.30578512396694213",
+    "time": 0.197
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1943,
+    "level": "71464129a3473a28a12325551a38547897689696:0:0.30578512396694213",
+    "time": 0.089
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2249,
+    "level": "4476a36a84719536828279a4365159721a385912:0:0.30578512396694213",
+    "time": 15.047
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1956,
+    "level": "81831347674a615639a2a194229a857742356895:0:0.30578512396694213",
+    "time": 1.162
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1690,
+    "level": "83469998a415731666a958377513a72424a12285:0:0.30578512396694213",
+    "time": 0.089
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1927,
+    "level": "181334a793a61265861a796597a8547452892342:0:0.30578512396694213",
+    "time": 0.413
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1866,
+    "level": "7447182156a2a89197a71a324643938869655235:0:0.30578512396694213",
+    "time": 0.133
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1882,
+    "level": "826a71493a5977761265483439239a6155841a28:0:0.30578512396694213",
+    "time": 0.104
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1732,
+    "level": "2786a3558941296353916788915244417aa6a327:0:0.30578512396694213",
+    "time": 0.247
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1852,
+    "level": "44957943961322658a31174656925a388a17287a:0:0.30578512396694213",
+    "time": 0.293
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1569,
+    "level": "4a2112a6985a68a3498977783262491413367555:0:0.30578512396694213",
+    "time": 0.164
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2022,
+    "level": "46643a25135a2689a94367211597a29857741883:0:0.30578512396694213",
+    "time": 0.189
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2304,
+    "level": "3961a85915817a259879a244241a735463728366:0:0.30578512396694213",
+    "time": 0.892
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2246,
+    "level": "43435986a211878519232475a164566732a97a98:0:0.30578512396694213",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2021,
+    "level": "6a8282a625a194463a4758793113879645715923:0:0.30578512396694213",
+    "time": 0.587
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1890,
+    "level": "3378a65aa327384556448722919114698172569a:0:0.30578512396694213",
+    "time": 0.386
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2212,
+    "level": "6156869837238a5a414174a61a93242377255998:0:0.30578512396694213",
+    "time": 0.355
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1956,
+    "level": "152954642348aa5681748731a29697283159367a:0:0.30578512396694213",
+    "time": 1.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1999,
+    "level": "1588529a387613936523a47621985172444697aa:0:0.30578512396694213",
+    "time": 0.125
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 1879,
+    "level": "5a1273716548919396a72444a9612253883785a6:0:0.30578512396694213",
+    "time": 0.202
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.30578512396694213,
+    "totalSolutions": 2263,
+    "level": "2928715a389a92931368a866341555627a747144:0:0.30578512396694213",
+    "time": 64.372
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 1520,
+    "level": "318296577a2483788532664aa172a91136994455:0:0.2975206611570248",
+    "time": 0.108
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2078,
+    "level": "121484867129731574a829aa598626533a345679:0:0.2975206611570248",
+    "time": 0.11
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2018,
+    "level": "13219527a52293149635644a38854a716687798a:0:0.2975206611570248",
+    "time": 0.185
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2158,
+    "level": "2723a87441a15a593621164a7939645382985867:0:0.2975206611570248",
+    "time": 0.14
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2237,
+    "level": "458561274537326574a2334a97611a281a989968:0:0.2975206611570248",
+    "time": 6.244
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 1845,
+    "level": "254979698832aa597335a24758816116641a7423:0:0.2975206611570248",
+    "time": 2.57
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2126,
+    "level": "96a54a657535427a32a337114498898261172968:0:0.2975206611570248",
+    "time": 0.23
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2535,
+    "level": "827871764a321a594656314835a91a4269289357:0:0.2975206611570248",
+    "time": 0.197
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 1648,
+    "level": "33a1876955719598265444318a626217aa328479:0:0.2975206611570248",
+    "time": 3.848
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 1348,
+    "level": "117288239244866a71a12363a357a64955587949:0:0.2975206611570248",
+    "time": 0.105
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2399,
+    "level": "452425749916314798173957a65aa6228381638a:0:0.2975206611570248",
+    "time": 0.577
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 1934,
+    "level": "4165415936298a8766a8a493a314519735872722:0:0.2975206611570248",
+    "time": 0.16
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2152,
+    "level": "28193a85978a3a2145a482141425796536676379:0:0.2975206611570248",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2019,
+    "level": "181945657215569a78a2a29434143936627a7838:0:0.2975206611570248",
+    "time": 0.115
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2063,
+    "level": "35954249a58a648651273862213874169377aa19:0:0.2975206611570248",
+    "time": 0.131
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2262,
+    "level": "834a12569248a65699813841a9213a7274367575:0:0.2975206611570248",
+    "time": 0.706
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2099,
+    "level": "321345641aa734139826619957a7289257648a85:0:0.2975206611570248",
+    "time": 0.354
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2141,
+    "level": "694948732a1612787471a55861395a48635322a9:0:0.2975206611570248",
+    "time": 1.368
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2072,
+    "level": "327579318451366a58622925148a91a9773a4648:0:0.2975206611570248",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2975206611570248,
+    "totalSolutions": 2056,
+    "level": "839511569198a1a864674845a3637224a5272793:0:0.2975206611570248",
+    "time": 90.101
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1900,
+    "level": "71344338791a88536512795aa2a6814792625946:0:0.2892561983471075",
+    "time": 0.188
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1772,
+    "level": "6495157377261142aa316a85898349279256384a:0:0.2892561983471075",
+    "time": 0.272
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2004,
+    "level": "43413819753221678a276164239a85895a45976a:0:0.2892561983471075",
+    "time": 0.424
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1841,
+    "level": "6192a768544363518785a223593aa74949872611:0:0.2892561983471075",
+    "time": 1.26
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2509,
+    "level": "838a227a512546213879949a63756461547a8931:0:0.2892561983471075",
+    "time": 0.223
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2212,
+    "level": "1134849a76738139379aa6224572a14256598658:0:0.2892561983471075",
+    "time": 25.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1941,
+    "level": "7621965a48238986925a6591a8441a5734123737:0:0.2892561983471075",
+    "time": 0.523
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1995,
+    "level": "41125a77a919623747926345a5648583986a1328:0:0.2892561983471075",
+    "time": 0.084
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2120,
+    "level": "7844a94263a86965317251416597129a57382a38:0:0.2892561983471075",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2452,
+    "level": "275253764693713298134246aa58a41869178a59:0:0.2892561983471075",
+    "time": 0.218
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2132,
+    "level": "2112287a8963a4351591a9465486778723a56493:0:0.2892561983471075",
+    "time": 0.167
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 2093,
+    "level": "a584a14247971923565972368656478a912a3813:0:0.2892561983471075",
+    "time": 0.193
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1777,
+    "level": "17578841456639818a2377a52949412a2396a563:0:0.2892561983471075",
+    "time": 0.08
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1998,
+    "level": "6435871aa31213a24859476a8379657869912254:0:0.2892561983471075",
+    "time": 0.353
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1899,
+    "level": "6844645326924a758913511a122a73675a989378:0:0.2892561983471075",
+    "time": 0.182
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2892561983471075,
+    "totalSolutions": 1976,
+    "level": "781732881746a4365899a16a4299a25614275335:0:0.2892561983471075",
+    "time": 0.145
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2003,
+    "level": "8811655384a26558293a119a93a4437426976277:0:0.28099173553719003",
+    "time": 0.244
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2235,
+    "level": "67117459478382a3769aa42291295a6315384568:0:0.28099173553719003",
+    "time": 0.106
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2145,
+    "level": "21552967475349a37a4a42818696a17681253398:0:0.28099173553719003",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2177,
+    "level": "867a2881527765a93a97691542854134a3613294:0:0.28099173553719003",
+    "time": 0.271
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2156,
+    "level": "5171478694383aa5268965a3a532171426499278:0:0.28099173553719003",
+    "time": 0.401
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2204,
+    "level": "317a3973586624992511a57a861a285746432984:0:0.28099173553719003",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2216,
+    "level": "1a791674532a34372149282969853847556a8a16:0:0.28099173553719003",
+    "time": 0.407
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2061,
+    "level": "24253a697942a596353826648488591717a311a7:0:0.28099173553719003",
+    "time": 0.154
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2480,
+    "level": "a7173a235a38639949482614264856a151782597:0:0.28099173553719003",
+    "time": 0.152
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2017,
+    "level": "4211825979642791471368a65329a65835734aa8:0:0.28099173553719003",
+    "time": 0.083
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2067,
+    "level": "41148337aa1921946a256588227535949736a678:0:0.28099173553719003",
+    "time": 0.215
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2189,
+    "level": "23758311145421648a95379a2a7869826a634579:0:0.28099173553719003",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2016,
+    "level": "358199378854a261557a374624a112482369a679:0:0.28099173553719003",
+    "time": 8.035
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 1771,
+    "level": "56274189a5a312796446193a752283564791388a:0:0.28099173553719003",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 1991,
+    "level": "2871953a461625aa91843476523739594a878162:0:0.28099173553719003",
+    "time": 0.083
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2377,
+    "level": "6414a23a317691657894792a2455865391238a87:0:0.28099173553719003",
+    "time": 0.158
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2051,
+    "level": "21a274671776958119634a9425a863a389352458:0:0.28099173553719003",
+    "time": 3.56
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 1804,
+    "level": "3879496179395817a844227451566258362a1a3a:0:0.28099173553719003",
+    "time": 0.214
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2359,
+    "level": "628789312a6654114a83a47a4951372825569739:0:0.28099173553719003",
+    "time": 0.209
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2197,
+    "level": "1a39781317466515949a8a2283347a2659564278:0:0.28099173553719003",
+    "time": 1.177
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.28099173553719003,
+    "totalSolutions": 2458,
+    "level": "71a4618574362538498624a7759835912a2693a1:0:0.28099173553719003",
+    "time": 0.963
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2033,
+    "level": "744831297931a1a55958578922666824a61a3473:0:0.2727272727272727",
+    "time": 0.196
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2159,
+    "level": "948113355256a726835a2797446a86a899117432:0:0.2727272727272727",
+    "time": 0.478
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2332,
+    "level": "6a9228881947551124a276a7963a144353836579:0:0.2727272727272727",
+    "time": 1.387
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 1934,
+    "level": "8a14a76839157677625454431223a9813692985a:0:0.2727272727272727",
+    "time": 0.807
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2006,
+    "level": "1a8682531216735859a63319a28259449a474767:0:0.2727272727272727",
+    "time": 0.079
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2027,
+    "level": "72a25355a871467997a94143214986a188263536:0:0.2727272727272727",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2156,
+    "level": "286854741315389627a657221939946571a4aa38:0:0.2727272727272727",
+    "time": 0.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2323,
+    "level": "72a58416873a94a555a296923142743136691788:0:0.2727272727272727",
+    "time": 0.137
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 1818,
+    "level": "aa7839868411355739a7442456329921a1665728:0:0.2727272727272727",
+    "time": 40.594
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2224,
+    "level": "28147174645229a983a948156557aa1339768326:0:0.2727272727272727",
+    "time": 1.033
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 1820,
+    "level": "a22a9474113846511939a5988675a42763362875:0:0.2727272727272727",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2207,
+    "level": "7a219768732353a17148a2636559491682494a58:0:0.2727272727272727",
+    "time": 3.982
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 1684,
+    "level": "512a4736aa9798157a8314492966174265858323:0:0.2727272727272727",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2002,
+    "level": "a39a1418749724a5327982666413a91556578823:0:0.2727272727272727",
+    "time": 0.983
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2254,
+    "level": "542169653212a1398a4a754274681879a8335679:0:0.2727272727272727",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2327,
+    "level": "923518627619a8947232831a7484157345aa6596:0:0.2727272727272727",
+    "time": 0.143
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2233,
+    "level": "7948113942a74a34a32971263a85559581687626:0:0.2727272727272727",
+    "time": 3.92
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2101,
+    "level": "56819a61643297aaa35782425569918147733428:0:0.2727272727272727",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 1958,
+    "level": "382a199126578973585a4442981327764a5a6136:0:0.2727272727272727",
+    "time": 20.992
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2727272727272727,
+    "totalSolutions": 2361,
+    "level": "271953a18a614264625348937a6829798455a713:0:0.2727272727272727",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2006,
+    "level": "67279434a463182a65a79685a455219978823113:0:0.2644628099173554",
+    "time": 0.087
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2060,
+    "level": "a844932381984257a567916382973661517a245a:0:0.2644628099173554",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2481,
+    "level": "359992474227a361a5798468451815383aa21667:0:0.2644628099173554",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2164,
+    "level": "535a25756a112349a73168184798a94862396427:0:0.2644628099173554",
+    "time": 0.139
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2001,
+    "level": "11254335865a977676324811aa573684289a9492:0:0.2644628099173554",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2452,
+    "level": "15a6281879354345186948a236162a757a732994:0:0.2644628099173554",
+    "time": 0.406
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2333,
+    "level": "77a19215734893a1269a584132665857329a4468:0:0.2644628099173554",
+    "time": 0.329
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 1952,
+    "level": "4496a1899251338851a4a22537749a2516673768:0:0.2644628099173554",
+    "time": 0.54
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2103,
+    "level": "4321935217a84481671856849667a9553a22793a:0:0.2644628099173554",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 1739,
+    "level": "731673a44575518182974264169358a293a28a96:0:0.2644628099173554",
+    "time": 0.364
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2068,
+    "level": "521431975195732aa663a281369298844647a578:0:0.2644628099173554",
+    "time": 1.918
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2290,
+    "level": "16647a1998955263532a18a4371677858a243429:0:0.2644628099173554",
+    "time": 0.189
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 1954,
+    "level": "a992424219a7535365416156a27843788a798163:0:0.2644628099173554",
+    "time": 0.27
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2216,
+    "level": "95466782a35812949651469217838a5373721aa4:0:0.2644628099173554",
+    "time": 2.163
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2196,
+    "level": "44a9621245a14531787125869238a7687a963359:0:0.2644628099173554",
+    "time": 0.232
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2031,
+    "level": "664748a79217554594a136a1a387853223991826:0:0.2644628099173554",
+    "time": 0.074
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2241,
+    "level": "21967514a2a537a48327316466988429a9573815:0:0.2644628099173554",
+    "time": 0.146
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2034,
+    "level": "183561a53726813292a2681567a734844a594979:0:0.2644628099173554",
+    "time": 0.141
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2216,
+    "level": "4189838a53227a8549117791436a7a2356294665:0:0.2644628099173554",
+    "time": 3.687
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 1830,
+    "level": "155264695a2381a43881278467934579319aa627:0:0.2644628099173554",
+    "time": 3.168
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 2017,
+    "level": "1278735641a1638322927646599374598a8a5a14:0:0.2644628099173554",
+    "time": 0.178
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "totalSolutions": 1972,
+    "level": "564a837159a269161315a28243587793a7269448:0:0.2644628099173554",
+    "time": 0.156
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2392,
+    "level": "284a92323832675615a4a918979566a131445778:0:0.25619834710743805",
+    "time": 0.135
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1867,
+    "level": "982168261373a469749a562481855539134277aa:0:0.25619834710743805",
+    "time": 0.231
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2251,
+    "level": "781a52853a9219514391469a82666253434a7877:0:0.25619834710743805",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2215,
+    "level": "785952617345462532aa8169183a4912936847a7:0:0.25619834710743805",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1873,
+    "level": "7743255a791374661612a2829a396458981485a3:0:0.25619834710743805",
+    "time": 10.62
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2173,
+    "level": "122943275318316947567a96825aa91574a63488:0:0.25619834710743805",
+    "time": 4.403
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2245,
+    "level": "719686261913a9a4257a6a853173947224885435:0:0.25619834710743805",
+    "time": 0.314
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2270,
+    "level": "6274614563118a9525539184a37a988372764a29:0:0.25619834710743805",
+    "time": 0.194
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1998,
+    "level": "48281153123625a877aa945259466473369981a7:0:0.25619834710743805",
+    "time": 0.11
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2474,
+    "level": "8856a22314752463985a9499574363aa71127816:0:0.25619834710743805",
+    "time": 0.092
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2254,
+    "level": "123a617384538541726345246a59a99a18689727:0:0.25619834710743805",
+    "time": 0.142
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2232,
+    "level": "5617a986a8166352a52234749a78181499537234:0:0.25619834710743805",
+    "time": 0.108
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2074,
+    "level": "4631248245974266a9871873956519528a7331aa:0:0.25619834710743805",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2097,
+    "level": "524a29516466878361823435577a27939a11498a:0:0.25619834710743805",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2329,
+    "level": "6191a3929a53596811587247573672483a248a46:0:0.25619834710743805",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2309,
+    "level": "82a46865869245723aaa75375729914139416183:0:0.25619834710743805",
+    "time": 0.478
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1983,
+    "level": "675578963968a9114752364457a28312a2a98431:0:0.25619834710743805",
+    "time": 0.213
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2015,
+    "level": "885624a5431927214537a52689679317a61893a4:0:0.25619834710743805",
+    "time": 0.156
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2243,
+    "level": "4251816124a8746593368a91a385a75729467239:0:0.25619834710743805",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2077,
+    "level": "313aa7284574595987a6329792612a8413581466:0:0.25619834710743805",
+    "time": 0.223
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2249,
+    "level": "46975727a99844a65a5181389a13466228123537:0:0.25619834710743805",
+    "time": 0.457
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1958,
+    "level": "8922354168751757268aaa7951348662933a1494:0:0.25619834710743805",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2172,
+    "level": "656483893932993a787117a14451657852426a2a:0:0.25619834710743805",
+    "time": 0.086
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2382,
+    "level": "2767aa2a9729635814494135217586819345836a:0:0.25619834710743805",
+    "time": 0.081
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2363,
+    "level": "6924717783825a39436885a94525a11a72146639:0:0.25619834710743805",
+    "time": 0.34
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 1841,
+    "level": "43a5276533a87a425524189829837111499a7666:0:0.25619834710743805",
+    "time": 15.065
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.25619834710743805,
+    "totalSolutions": 2079,
+    "level": "543586aa5472a6266394739119142521737a8889:0:0.25619834710743805",
+    "time": 0.114
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2330,
+    "level": "41563431295628a116a7275549372a9838a98764:0:0.2479338842975206",
+    "time": 0.126
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2494,
+    "level": "94922846545537a226a471919681773883a136a5:0:0.2479338842975206",
+    "time": 0.192
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2178,
+    "level": "61291375a714516398a3a278a893462827554496:0:0.2479338842975206",
+    "time": 0.418
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2305,
+    "level": "1682784339795473321641a2a5a482169558697a:0:0.2479338842975206",
+    "time": 0.129
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1806,
+    "level": "384223273a49141186834975aa66829155a75679:0:0.2479338842975206",
+    "time": 0.088
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2453,
+    "level": "742416115248a751aa6439a38383297856596729:0:0.2479338842975206",
+    "time": 0.183
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1897,
+    "level": "3352178745286674961a146925871993aa3a4825:0:0.2479338842975206",
+    "time": 0.234
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1888,
+    "level": "218126562447561a481524373379a99973aa5688:0:0.2479338842975206",
+    "time": 0.51
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2153,
+    "level": "5314327515863a4287a76816929a98361244597a:0:0.2479338842975206",
+    "time": 1.314
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2085,
+    "level": "5a17881267929169aa4547381325367632a49845:0:0.2479338842975206",
+    "time": 0.11
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2535,
+    "level": "aa47873a6497a555793116422839426561898312:0:0.2479338842975206",
+    "time": 0.421
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1745,
+    "level": "982484472531861667913a374297551a98aa6523:0:0.2479338842975206",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2437,
+    "level": "56928587691a78871314a49436924362127a355a:0:0.2479338842975206",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1876,
+    "level": "68884462227261a19a57847337519a413565a399:0:0.2479338842975206",
+    "time": 0.518
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2120,
+    "level": "8368aa822aa16973117961623597434249845557:0:0.2479338842975206",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2370,
+    "level": "313a352978a2786392a9851785496751661a2444:0:0.2479338842975206",
+    "time": 1.521
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2225,
+    "level": "3385218a177435219251269634564898476aa79a:0:0.2479338842975206",
+    "time": 7.667
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2061,
+    "level": "aa87a3262156871a472641549898953197625343:0:0.2479338842975206",
+    "time": 1.739
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 1993,
+    "level": "529988a6378a5771379231689643152254146aa4:0:0.2479338842975206",
+    "time": 0.177
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2479338842975206,
+    "totalSolutions": 2391,
+    "level": "3884a8529147219438a16693575932175a426a67:0:0.2479338842975206",
+    "time": 0.479
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2840,
+    "level": "82a179274317a9a831852247664316356549958a:0:0.23966942148760328",
+    "time": 0.452
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2340,
+    "level": "1176724163a6494263593a31582a485959772a88:0:0.23966942148760328",
+    "time": 2.156
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2132,
+    "level": "4283a693829a775a91546576a342843215618179:0:0.23966942148760328",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1993,
+    "level": "8197376968a2972571553883544a4a619413a262:0:0.23966942148760328",
+    "time": 2.034
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1866,
+    "level": "43a665a1716893158227158672a9375444a29839:0:0.23966942148760328",
+    "time": 2.903
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2313,
+    "level": "328912a923a158676767357129398451485a4a64:0:0.23966942148760328",
+    "time": 0.444
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2291,
+    "level": "1711154a8957a42a924293235a56783866698347:0:0.23966942148760328",
+    "time": 0.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1979,
+    "level": "7483815a59a96138473759629134762aa2514826:0:0.23966942148760328",
+    "time": 0.179
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2065,
+    "level": "96798871a122663a6791a4852a13385257934454:0:0.23966942148760328",
+    "time": 0.346
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2208,
+    "level": "234a1458136561193a4682a395a7727257689948:0:0.23966942148760328",
+    "time": 0.477
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2255,
+    "level": "3618237a51a9645a179a98638172456297342845:0:0.23966942148760328",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1930,
+    "level": "89a14a8451677aa8329923317442256895317665:0:0.23966942148760328",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2061,
+    "level": "112192776a2835a79416625a98953384a4346578:0:0.23966942148760328",
+    "time": 59.792
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2180,
+    "level": "85751193622368a2a783179921384a76544954a6:0:0.23966942148760328",
+    "time": 0.3
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2570,
+    "level": "198917655715a2aa6356972138843924487a6324:0:0.23966942148760328",
+    "time": 0.822
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1760,
+    "level": "1219641a5793a48443a72886a992773365558621:0:0.23966942148760328",
+    "time": 0.066
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1889,
+    "level": "21656914717332a96878aa1246384a8955254739:0:0.23966942148760328",
+    "time": 0.992
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 1951,
+    "level": "43987274155227a86a934415a96139a563681287:0:0.23966942148760328",
+    "time": 0.097
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2184,
+    "level": "18a4a814264532a29139a9455871778635267369:0:0.23966942148760328",
+    "time": 0.139
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23966942148760328,
+    "totalSolutions": 2499,
+    "level": "a3165364247429234a1385677872959a1898561a:0:0.23966942148760328",
+    "time": 1.537
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2370,
+    "level": "98786954a131a47a91155488263256a732324796:0:0.23140495867768596",
+    "time": 0.24
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2252,
+    "level": "429983513815577a3523a769167484a4126a6289:0:0.23140495867768596",
+    "time": 0.091
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2307,
+    "level": "4a1573631a987a7695a823686915492572314428:0:0.23140495867768596",
+    "time": 0.967
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2170,
+    "level": "a9643a31658a7252912a51516384779283964748:0:0.23140495867768596",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2236,
+    "level": "4124a5623138a856329aa1479487136585297967:0:0.23140495867768596",
+    "time": 0.439
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2153,
+    "level": "414117a889232918239a3a25683a967565567474:0:0.23140495867768596",
+    "time": 0.149
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1880,
+    "level": "3a18312293329aa57816427714945466a7589865:0:0.23140495867768596",
+    "time": 0.107
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2193,
+    "level": "8243712aa7521874518a52635169374a99963846:0:0.23140495867768596",
+    "time": 12.701
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2411,
+    "level": "95a82139473715a66859132412264a9876a35748:0:0.23140495867768596",
+    "time": 0.09
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2004,
+    "level": "461284913536331467781a597a97a56928584a22:0:0.23140495867768596",
+    "time": 0.213
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2182,
+    "level": "9432aa68a2545236347716986147715125398a89:0:0.23140495867768596",
+    "time": 0.106
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2425,
+    "level": "4a6a2171981313488292423a6475359558976a67:0:0.23140495867768596",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2077,
+    "level": "2299a4386652879928171a133461a346a7585547:0:0.23140495867768596",
+    "time": 0.464
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1992,
+    "level": "6262621518a93aa5679745418835779341a38249:0:0.23140495867768596",
+    "time": 0.322
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1852,
+    "level": "1341995a5a8251167643a358a228738294766947:0:0.23140495867768596",
+    "time": 0.148
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2252,
+    "level": "2439a3114578865a6124539a26984697352a8177:0:0.23140495867768596",
+    "time": 0.24
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2015,
+    "level": "11246668918a2a13949777552a57a86393834542:0:0.23140495867768596",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2099,
+    "level": "49a11385368624a46698787a5239175514a73292:0:0.23140495867768596",
+    "time": 0.165
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2323,
+    "level": "2881a1613725459367823aa641543798a9592647:0:0.23140495867768596",
+    "time": 6.382
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1931,
+    "level": "278928581155aa831641497467267a32a3596493:0:0.23140495867768596",
+    "time": 0.344
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1915,
+    "level": "873637a359a2775346168a914511a82296849245:0:0.23140495867768596",
+    "time": 0.193
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1918,
+    "level": "139521215868aa66432499283473a65778459a17:0:0.23140495867768596",
+    "time": 0.393
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2174,
+    "level": "6362627988348a11148512a4795329935a67a457:0:0.23140495867768596",
+    "time": 0.138
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 1834,
+    "level": "763a1159388255224a768a247a16739469915348:0:0.23140495867768596",
+    "time": 0.11
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2243,
+    "level": "8133a54128237653794951a789249124a675668a:0:0.23140495867768596",
+    "time": 0.125
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.23140495867768596,
+    "totalSolutions": 2168,
+    "level": "6484989553671a519a67429a276141333a258278:0:0.23140495867768596",
+    "time": 0.111
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2066,
+    "level": "734565182314479396a24865539916a8218a772a:0:0.22314049586776863",
+    "time": 0.319
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 1935,
+    "level": "7692a268688a7115939715432a3846735a495412:0:0.22314049586776863",
+    "time": 0.092
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 1718,
+    "level": "3268985917421167a32583aa5a37295618449467:0:0.22314049586776863",
+    "time": 0.163
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2316,
+    "level": "981a56194aa9278461677296833452a355123874:0:0.22314049586776863",
+    "time": 0.162
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2113,
+    "level": "547165a7a6237892664133322855a9a884419791:0:0.22314049586776863",
+    "time": 0.115
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2455,
+    "level": "33738935a95794615261564749128482178aa26a:0:0.22314049586776863",
+    "time": 3.619
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2246,
+    "level": "62881232191595377856a384a6592aa737946441:0:0.22314049586776863",
+    "time": 0.164
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 1946,
+    "level": "1312912a9a49698a5763653457a7618822783544:0:0.22314049586776863",
+    "time": 0.327
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 1976,
+    "level": "4514993a995562783a853147188273a6724261a6:0:0.22314049586776863",
+    "time": 0.293
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2369,
+    "level": "1149998362759a78831a581a564234276a253467:0:0.22314049586776863",
+    "time": 11.907
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2076,
+    "level": "339545922571539381461697828412466a7a87aa:0:0.22314049586776863",
+    "time": 0.105
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2876,
+    "level": "14619832a7a226a39675161a7943478525839548:0:0.22314049586776863",
+    "time": 31.783
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2429,
+    "level": "18731668732449a954a3721658923612a45a5789:0:0.22314049586776863",
+    "time": 0.33
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2003,
+    "level": "576641332424137521a2318a7a968698994585a7:0:0.22314049586776863",
+    "time": 0.249
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2090,
+    "level": "627a23715a2445a5391818969a14493685278673:0:0.22314049586776863",
+    "time": 0.375
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 1716,
+    "level": "7721426361a8aa9425849425879351395376186a:0:0.22314049586776863",
+    "time": 0.135
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2131,
+    "level": "5814791a45355133428869619672aa279a637284:0:0.22314049586776863",
+    "time": 0.643
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2443,
+    "level": "21a6a399454a18867189155747623a3675329284:0:0.22314049586776863",
+    "time": 0.944
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2153,
+    "level": "456819916a9572422631a72843579313a867a548:0:0.22314049586776863",
+    "time": 0.095
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2424,
+    "level": "71879238365542452a9142a97a981714a5386636:0:0.22314049586776863",
+    "time": 0.295
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2276,
+    "level": "a2745752a8693468839a3118226553171496a794:0:0.22314049586776863",
+    "time": 1.264
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2417,
+    "level": "8159a51221a3687496243324368787146995a75a:0:0.22314049586776863",
+    "time": 47.183
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.22314049586776863,
+    "totalSolutions": 2350,
+    "level": "146471659629a5339543847a82172517638aa829:0:0.22314049586776863",
+    "time": 0.197
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 1974,
+    "level": "66a276154a5239a433a494792883816851957127:0:0.2148760330578512",
+    "time": 0.167
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2208,
+    "level": "793897854aa35623772958142416a94526381a16:0:0.2148760330578512",
+    "time": 0.308
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2377,
+    "level": "53796933a645979848215a2361147826a2147a58:0:0.2148760330578512",
+    "time": 0.734
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2376,
+    "level": "433937a4836759282585287a291914671416a65a:0:0.2148760330578512",
+    "time": 0.345
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 1777,
+    "level": "113265951399a7784a62272153444669358878aa:0:0.2148760330578512",
+    "time": 0.088
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2730,
+    "level": "7479155a41433246819512795a39838a262a6687:0:0.2148760330578512",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2548,
+    "level": "23533499aa848a561294a2131698557748671267:0:0.2148760330578512",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 1987,
+    "level": "422973353a16465419271a16a7832496885a8579:0:0.2148760330578512",
+    "time": 0.286
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2537,
+    "level": "461723849546a1a97941383672285a18972a5356:0:0.2148760330578512",
+    "time": 0.296
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2205,
+    "level": "8559667732111344a782a8951a2432468695a379:0:0.2148760330578512",
+    "time": 0.486
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2134,
+    "level": "2a8515994a273112635386a761844a6939727854:0:0.2148760330578512",
+    "time": 0.23
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 1920,
+    "level": "71967871527896a52a24448a921a316684339553:0:0.2148760330578512",
+    "time": 0.095
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2450,
+    "level": "3165425a9461a8731677958a527349284182369a:0:0.2148760330578512",
+    "time": 0.299
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2306,
+    "level": "895232778a7118253361217aaa65849599434646:0:0.2148760330578512",
+    "time": 1.775
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2148760330578512,
+    "totalSolutions": 2102,
+    "level": "2689421237a32813a6817341598495774595a66a:0:0.2148760330578512",
+    "time": 0.182
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2133,
+    "level": "682197551794a84691a37174593a85a336426822:0:0.20661157024793386",
+    "time": 0.548
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2397,
+    "level": "5543683aa8951a167296782a7213172958434964:0:0.20661157024793386",
+    "time": 0.872
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2324,
+    "level": "69174273761a59683235698a9454a713128a4852:0:0.20661157024793386",
+    "time": 0.475
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2235,
+    "level": "171aa769336287492a25a4678254395415836198:0:0.20661157024793386",
+    "time": 0.315
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2337,
+    "level": "115763995352aa89767435984237468a624118a2:0:0.20661157024793386",
+    "time": 0.158
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2788,
+    "level": "81a7264871248697534a2513961a9548932a3567:0:0.20661157024793386",
+    "time": 0.345
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2389,
+    "level": "1291a6927263798475a44a12638637a589583514:0:0.20661157024793386",
+    "time": 1.868
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2119,
+    "level": "42a222a6118747793587951613633a585499648a:0:0.20661157024793386",
+    "time": 1.065
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2301,
+    "level": "2844a8a671167a785529966493415738a3132259:0:0.20661157024793386",
+    "time": 0.121
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2331,
+    "level": "684149517342a61997376538a922542a3185a768:0:0.20661157024793386",
+    "time": 0.153
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2104,
+    "level": "4219914837257aa925a38637414568813266759a:0:0.20661157024793386",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2247,
+    "level": "427546286153a476131287358a64939725a9189a:0:0.20661157024793386",
+    "time": 0.388
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2110,
+    "level": "5384862957198266794a2a47348155337a161a92:0:0.20661157024793386",
+    "time": 0.187
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 1906,
+    "level": "4595a2816634298773a19853aa85912677124643:0:0.20661157024793386",
+    "time": 0.283
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 1835,
+    "level": "29969251837a57a47725845863193a44181a2366:0:0.20661157024793386",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 1908,
+    "level": "94157161aa4622895194232853354aa369877876:0:0.20661157024793386",
+    "time": 0.1
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2132,
+    "level": "18324927525869113259aa63843a6147789a7465:0:0.20661157024793386",
+    "time": 0.138
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2099,
+    "level": "131343826aa952124a1745a54969723698658877:0:0.20661157024793386",
+    "time": 1.592
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2292,
+    "level": "9572743a9145489638a1a41156978223257a8663:0:0.20661157024793386",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2119,
+    "level": "9a2a4a265951861935347768465148a312727893:0:0.20661157024793386",
+    "time": 0.7
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2494,
+    "level": "1a31481296242946a37631699283788455a75a57:0:0.20661157024793386",
+    "time": 0.2
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2619,
+    "level": "635328727485915a899a16a6483513164724a729:0:0.20661157024793386",
+    "time": 2.108
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2203,
+    "level": "481166497a2289781735673a433a249a96528155:0:0.20661157024793386",
+    "time": 0.136
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2555,
+    "level": "9233a51674216581789873427656a3a5a9984421:0:0.20661157024793386",
+    "time": 0.697
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2152,
+    "level": "a43251a45963388469162217846327a5879a7159:0:0.20661157024793386",
+    "time": 0.396
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.20661157024793386,
+    "totalSolutions": 2017,
+    "level": "87622159932a83a91691a56838675274a1434457:0:0.20661157024793386",
+    "time": 0.33
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2304,
+    "level": "114a9a42352615836234a8847656932597877a19:0:0.19834710743801653",
+    "time": 0.127
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2304,
+    "level": "12344653aa97185819376a44855326a921972786:0:0.19834710743801653",
+    "time": 1.101
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2410,
+    "level": "34a738923a52571612987a369442876149518a65:0:0.19834710743801653",
+    "time": 0.239
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2206,
+    "level": "5871956a8a4776561386122349379859aa142234:0:0.19834710743801653",
+    "time": 0.161
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2390,
+    "level": "34328832a5816617817574a5994662a29374195a:0:0.19834710743801653",
+    "time": 4.694
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2194,
+    "level": "2aa4824367959a2542a968711347881793355661:0:0.19834710743801653",
+    "time": 0.727
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2455,
+    "level": "7415aa1a293a2686416188935278539429767345:0:0.19834710743801653",
+    "time": 0.139
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2514,
+    "level": "275694293a839111358723486a6594842aa67517:0:0.19834710743801653",
+    "time": 0.178
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2189,
+    "level": "967542566aa37896781814174493a1253a382592:0:0.19834710743801653",
+    "time": 0.151
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2444,
+    "level": "84819a239756366a395114a2848459317a622577:0:0.19834710743801653",
+    "time": 0.252
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2033,
+    "level": "148a77a59462712611369255a8443a2383896579:0:0.19834710743801653",
+    "time": 2.22
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2443,
+    "level": "2316324276a846531988159427a914a975a56783:0:0.19834710743801653",
+    "time": 0.208
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2734,
+    "level": "7234925395164a48835157a71966a2a819867243:0:0.19834710743801653",
+    "time": 0.165
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2446,
+    "level": "68a119a5a369873442a148326384571275997526:0:0.19834710743801653",
+    "time": 0.504
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2382,
+    "level": "576364879241a4717835128a25a98936249136a5:0:0.19834710743801653",
+    "time": 2.693
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2502,
+    "level": "a72a97a7714584398621495686531133284952a6:0:0.19834710743801653",
+    "time": 0.395
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2665,
+    "level": "768a743a4232a82a214879695695437361958511:0:0.19834710743801653",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 1856,
+    "level": "52a932367a65151863451287799478138a9a4462:0:0.19834710743801653",
+    "time": 0.195
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2516,
+    "level": "6142519a786572938824617234a5a8649351379a:0:0.19834710743801653",
+    "time": 0.292
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 1985,
+    "level": "22958911a4387756958137687aa32494632a1465:0:0.19834710743801653",
+    "time": 0.086
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2105,
+    "level": "6248132749392a13678417a18975a656598a4253:0:0.19834710743801653",
+    "time": 0.185
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 1752,
+    "level": "85a49a86961275a8331117628a23649934275475:0:0.19834710743801653",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 2191,
+    "level": "31512387646985a75194874517a33a24986a9622:0:0.19834710743801653",
+    "time": 0.173
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.19834710743801653,
+    "totalSolutions": 1731,
+    "level": "4371382aaa812493481663555842571977a29966:0:0.19834710743801653",
+    "time": 0.251
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2588,
+    "level": "51984546513779a311885792a32662382a47a649:0:0.1900826446280992",
+    "time": 0.273
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2383,
+    "level": "215154759158647496336aaa83172297936a8428:0:0.1900826446280992",
+    "time": 0.217
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2502,
+    "level": "14a52a1a53574627896889728163937349425a61:0:0.1900826446280992",
+    "time": 0.268
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2647,
+    "level": "2353a795191324a74289a864538975162614678a:0:0.1900826446280992",
+    "time": 0.16
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2510,
+    "level": "4542176293677528919a7a94a81453632a185683:0:0.1900826446280992",
+    "time": 0.925
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 1782,
+    "level": "8871961833662a7294495892142aa6a375134755:0:0.1900826446280992",
+    "time": 0.066
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 1950,
+    "level": "375519619469761a884372356124aa428735a298:0:0.1900826446280992",
+    "time": 0.169
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2294,
+    "level": "19249419138857651227a35a36384784a2a66597:0:0.1900826446280992",
+    "time": 0.118
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2276,
+    "level": "74154162124799aa82539858a723573641a38669:0:0.1900826446280992",
+    "time": 0.327
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2412,
+    "level": "82485837aa31169361a23465459674819797522a:0:0.1900826446280992",
+    "time": 0.157
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2645,
+    "level": "651917211437a9a69643a9748a58235482523687:0:0.1900826446280992",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2455,
+    "level": "193716437aa949621a12243889562485a3685757:0:0.1900826446280992",
+    "time": 0.833
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1900826446280992,
+    "totalSolutions": 2495,
+    "level": "4528389631742558a7723198432aa561641a9769:0:0.1900826446280992",
+    "time": 59.823
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2270,
+    "level": "6387867631683951427392a4a559814527a194a2:0:0.18181818181818177",
+    "time": 0.132
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2416,
+    "level": "4716585948617993228266534931375a2a1aa478:0:0.18181818181818177",
+    "time": 0.434
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2410,
+    "level": "2893231664919a2881a527374669a45458a17735:0:0.18181818181818177",
+    "time": 0.212
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2178,
+    "level": "569a85239811a23a74746514a887697132256493:0:0.18181818181818177",
+    "time": 0.257
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2167,
+    "level": "515816273942171546aa2965894638394a23877a:0:0.18181818181818177",
+    "time": 0.14
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2335,
+    "level": "228a3a78219651745a461475331972358699684a:0:0.18181818181818177",
+    "time": 13.191
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2071,
+    "level": "26973383a5a1744496922164883a15586a772195:0:0.18181818181818177",
+    "time": 0.109
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2190,
+    "level": "1539a58a749445a2616291218532366977784a38:0:0.18181818181818177",
+    "time": 0.173
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 1772,
+    "level": "74451a6641989a3728295961a7334a6215583287:0:0.18181818181818177",
+    "time": 0.091
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2511,
+    "level": "7a2a7a9636321437781549612a51832844965985:0:0.18181818181818177",
+    "time": 8.963
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 1735,
+    "level": "54a29a656a7864811916227749435139832857a3:0:0.18181818181818177",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2437,
+    "level": "4369356887198a679212452395814146a52aa737:0:0.18181818181818177",
+    "time": 14.478
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2563,
+    "level": "8131278a56a735a929684474299a116235784356:0:0.18181818181818177",
+    "time": 10.392
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2593,
+    "level": "2321369641724589892391877a631454a56aa857:0:0.18181818181818177",
+    "time": 0.215
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2266,
+    "level": "44862949335823867128119a59a267475a1536a7:0:0.18181818181818177",
+    "time": 2.702
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2179,
+    "level": "837a13547a67391234592412679982458aa56168:0:0.18181818181818177",
+    "time": 1.478
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2652,
+    "level": "13a7241328896261529795a76139435a4865847a:0:0.18181818181818177",
+    "time": 0.357
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2383,
+    "level": "48169281946321584533a45985aa617a77962732:0:0.18181818181818177",
+    "time": 0.435
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2424,
+    "level": "2aa251318a7328915347799464148a8366652957:0:0.18181818181818177",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2350,
+    "level": "7a8547425636142a1357667182a38599418a9293:0:0.18181818181818177",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2249,
+    "level": "7773216356179a2911848452a44265833598a6a9:0:0.18181818181818177",
+    "time": 1.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2142,
+    "level": "1229523593819a67958668134247a774a185a364:0:0.18181818181818177",
+    "time": 0.267
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 1812,
+    "level": "3664589a97a2162173385856119a283547294a47:0:0.18181818181818177",
+    "time": 0.141
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2621,
+    "level": "2554197a98a731348624356152132a8967a48976:0:0.18181818181818177",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2093,
+    "level": "16521a8225a45194773189668493a7289634a573:0:0.18181818181818177",
+    "time": 0.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.18181818181818177,
+    "totalSolutions": 2085,
+    "level": "34152968114242749a59528a6586791a873673a3:0:0.18181818181818177",
+    "time": 0.14
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2502,
+    "level": "51414364a82254a9639a87178972a36195237685:0:0.17355371900826444",
+    "time": 0.38
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2167,
+    "level": "5a836711452364388a76194784325a6299a51729:0:0.17355371900826444",
+    "time": 0.445
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2660,
+    "level": "a3672a21827567a569875499a146294338145813:0:0.17355371900826444",
+    "time": 0.711
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2333,
+    "level": "671141991723a85a3562a4726434858972a36598:0:0.17355371900826444",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2606,
+    "level": "811a63962429a52475728379164313975648a5a8:0:0.17355371900826444",
+    "time": 3.105
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2414,
+    "level": "12677a969295364a84434783681a1a3921752855:0:0.17355371900826444",
+    "time": 0.15
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2099,
+    "level": "193582a4628237241a871991645a58436356779a:0:0.17355371900826444",
+    "time": 0.172
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2460,
+    "level": "6959164748185a6514771a2433792965283a28a3:0:0.17355371900826444",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2519,
+    "level": "14979183a25783624526a489716a5a4982635137:0:0.17355371900826444",
+    "time": 0.567
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2587,
+    "level": "2a2945956412a83827171586a64937346519a387:0:0.17355371900826444",
+    "time": 0.161
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2404,
+    "level": "769711835918315a764a6728295a23428465a934:0:0.17355371900826444",
+    "time": 0.172
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2182,
+    "level": "4511938279236658664a285973a48a7725a91314:0:0.17355371900826444",
+    "time": 0.22
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2140,
+    "level": "31a613381556796a47798288192424a24a735659:0:0.17355371900826444",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2030,
+    "level": "4933a5299221a76788aa32453895177164645816:0:0.17355371900826444",
+    "time": 0.144
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2211,
+    "level": "4832a2337659aa1777568434a495186219691582:0:0.17355371900826444",
+    "time": 0.333
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2371,
+    "level": "a4a67993a5694941327152642836782871a35815:0:0.17355371900826444",
+    "time": 0.275
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2457,
+    "level": "67269279417591a543838a567148952812a3463a:0:0.17355371900826444",
+    "time": 0.186
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2480,
+    "level": "a983251114354a61796a82522674367a95784983:0:0.17355371900826444",
+    "time": 0.213
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2518,
+    "level": "a71164936a7184958863253722a29437a1596584:0:0.17355371900826444",
+    "time": 0.115
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2777,
+    "level": "3248912a612498314a73986357a96726751a5854:0:0.17355371900826444",
+    "time": 0.398
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2680,
+    "level": "943584711a79194652aa267326863234585a9817:0:0.17355371900826444",
+    "time": 10.92
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2227,
+    "level": "44992156a19a33523787851a49828662375674a1:0:0.17355371900826444",
+    "time": 0.287
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2367,
+    "level": "5676389a1249184a729383a175863657a9412254:0:0.17355371900826444",
+    "time": 0.391
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2432,
+    "level": "868aa56791647431529a851622439935a1483727:0:0.17355371900826444",
+    "time": 5.004
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.17355371900826444,
+    "totalSolutions": 2427,
+    "level": "28193443764a71a6287426892a158769a1353595:0:0.17355371900826444",
+    "time": 157.846
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2545,
+    "level": "635958561841717436422295aa623797a48193a8:0:0.1652892561983471",
+    "time": 0.254
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2550,
+    "level": "2a1411319726892a4a62a5684873945395587673:0:0.1652892561983471",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2339,
+    "level": "82a15932535661541344868a17779986aa237294:0:0.1652892561983471",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2668,
+    "level": "3214168a2424a5976a26179898853a7175496335:0:0.1652892561983471",
+    "time": 0.239
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2627,
+    "level": "91662a3a1a714835336229758471a25784468959:0:0.1652892561983471",
+    "time": 0.157
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2616,
+    "level": "8774922a82a31829565671535146a1433649a897:0:0.1652892561983471",
+    "time": 3.498
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2194,
+    "level": "47a9835577412a1966395453142987216638aa82:0:0.1652892561983471",
+    "time": 0.265
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2430,
+    "level": "26919578435621a15a2a78948139237483465a67:0:0.1652892561983471",
+    "time": 5.494
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2041,
+    "level": "12681a948a298891553652593164442736a77a73:0:0.1652892561983471",
+    "time": 0.257
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2302,
+    "level": "27458176956a327192a97843414388a5a6213569:0:0.1652892561983471",
+    "time": 10.432
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2384,
+    "level": "189829335aa473769413225a7a18451726654968:0:0.1652892561983471",
+    "time": 4.672
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2616,
+    "level": "2356834119656179aa421575884938322647aa97:0:0.1652892561983471",
+    "time": 0.492
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2574,
+    "level": "63352521658396a7a414172195482349687798aa:0:0.1652892561983471",
+    "time": 61.261
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2462,
+    "level": "481591a6853a742739421356a62147693925a788:0:0.1652892561983471",
+    "time": 0.172
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2089,
+    "level": "8897a423553179518833292976a6aa6151247446:0:0.1652892561983471",
+    "time": 0.379
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2211,
+    "level": "4754365122831a42816562997187694a98753a3a:0:0.1652892561983471",
+    "time": 0.098
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2337,
+    "level": "4422993a628163a29696517154875a135a387748:0:0.1652892561983471",
+    "time": 0.597
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2335,
+    "level": "198aaa15893656251377123254948a4726734869:0:0.1652892561983471",
+    "time": 0.133
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1652892561983471,
+    "totalSolutions": 2722,
+    "level": "3a4315587359761668a329197122246a7485a849:0:0.1652892561983471",
+    "time": 0.7
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2029,
+    "level": "2237277a9174192939a35846aa55468151386468:0:0.15702479338842978",
+    "time": 0.27
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2454,
+    "level": "6974219a298381792a4331261645735455a76a88:0:0.15702479338842978",
+    "time": 2.392
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2042,
+    "level": "7115a464653382287593a54167a1246379828a99:0:0.15702479338842978",
+    "time": 0.121
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2458,
+    "level": "748196139854a358441a12665927375239a82a67:0:0.15702479338842978",
+    "time": 4.008
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2832,
+    "level": "81413429816935262a75493a575a78719a436862:0:0.15702479338842978",
+    "time": 0.179
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2315,
+    "level": "9196198aa4376324325476592848a6572a751381:0:0.15702479338842978",
+    "time": 3.169
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2580,
+    "level": "1aa2397629784132688756285179a46a31355494:0:0.15702479338842978",
+    "time": 0.152
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2533,
+    "level": "2284681a357894734597612693541375128aaa69:0:0.15702479338842978",
+    "time": 0.297
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2238,
+    "level": "a4192864671a199862553238153287934775aa64:0:0.15702479338842978",
+    "time": 0.121
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2634,
+    "level": "8957968442a916413638572a923a14a125536778:0:0.15702479338842978",
+    "time": 1.38
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2741,
+    "level": "486726984913761742372515564aa3a1a2959388:0:0.15702479338842978",
+    "time": 0.421
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2914,
+    "level": "17365448a163234597a4523a5786a12689298971:0:0.15702479338842978",
+    "time": 0.247
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2209,
+    "level": "98a48465984673531282a32795164a311a757629:0:0.15702479338842978",
+    "time": 1.69
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2221,
+    "level": "24a8197a12684952548913867724aa1657353936:0:0.15702479338842978",
+    "time": 0.097
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 1991,
+    "level": "539a868a217423a57531657721499964413288a6:0:0.15702479338842978",
+    "time": 0.192
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2196,
+    "level": "91771343888372654424915982751592aa6a636a:0:0.15702479338842978",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2411,
+    "level": "247928511867591aa695a6334484a59122768337:0:0.15702479338842978",
+    "time": 0.526
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2074,
+    "level": "1876a51a217378612558429a64953a8732643499:0:0.15702479338842978",
+    "time": 0.664
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2181,
+    "level": "4678328238145a13294a5a869537991616a42775:0:0.15702479338842978",
+    "time": 41.455
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2186,
+    "level": "511622782634291a3a5a413598638a6777949548:0:0.15702479338842978",
+    "time": 0.575
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2648,
+    "level": "718155825323967983272a6a39156a81449464a7:0:0.15702479338842978",
+    "time": 0.19
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2478,
+    "level": "1a4976a4a166517838227956238385a541932947:0:0.15702479338842978",
+    "time": 0.181
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2832,
+    "level": "54753675721973851a3288a1468294136a96a294:0:0.15702479338842978",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2267,
+    "level": "6294251374275961893a3419a53185672684aa78:0:0.15702479338842978",
+    "time": 0.283
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2446,
+    "level": "9817819a683626354aa1874a4765721345922935:0:0.15702479338842978",
+    "time": 0.131
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2293,
+    "level": "813558494774126961863293a7aa8514567a9322:0:0.15702479338842978",
+    "time": 0.218
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.15702479338842978,
+    "totalSolutions": 2646,
+    "level": "1a1a6892592721453a383654416425897783967a:0:0.15702479338842978",
+    "time": 0.291
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 1737,
+    "level": "88474299855133a96961728a673a247651a42531:0:0.14876033057851235",
+    "time": 0.131
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2721,
+    "level": "97a6137312578a15835a671264942a2463859489:0:0.14876033057851235",
+    "time": 0.276
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2232,
+    "level": "6a8987163421941a492871a322565a3974735586:0:0.14876033057851235",
+    "time": 0.302
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2014,
+    "level": "24396537672844263a83aa7a5259914115987186:0:0.14876033057851235",
+    "time": 0.139
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2568,
+    "level": "64518116a5797867a322212546445398397389aa:0:0.14876033057851235",
+    "time": 0.289
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2627,
+    "level": "78a429265853793a432a954195811a8677321646:0:0.14876033057851235",
+    "time": 6.168
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2680,
+    "level": "684529758499193a5877a2a184163654a2613273:0:0.14876033057851235",
+    "time": 0.297
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2211,
+    "level": "722874137981a5a9545a36379366498a24151826:0:0.14876033057851235",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2514,
+    "level": "38147a69376284a6582a51731418722355699a94:0:0.14876033057851235",
+    "time": 0.223
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2095,
+    "level": "5371a482862851a51991337436679a76252944a8:0:0.14876033057851235",
+    "time": 0.429
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2553,
+    "level": "353518674413a682771a2761296954529aa84938:0:0.14876033057851235",
+    "time": 0.53
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2483,
+    "level": "658895172a31237a5943523944a41127698a8667:0:0.14876033057851235",
+    "time": 0.54
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2357,
+    "level": "7a442231359a346386718519a9567828215764a9:0:0.14876033057851235",
+    "time": 0.395
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2221,
+    "level": "9333a7124944577a618a85982182525361a74696:0:0.14876033057851235",
+    "time": 0.339
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2310,
+    "level": "679a169a92216a7447531847218a356523358498:0:0.14876033057851235",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2124,
+    "level": "418318427533877625a5231a69891492a6a94756:0:0.14876033057851235",
+    "time": 0.125
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2120,
+    "level": "416985746a251335318615992777426aaa839248:0:0.14876033057851235",
+    "time": 0.128
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2304,
+    "level": "31a5361a76678973251482984622a45949537a81:0:0.14876033057851235",
+    "time": 1.23
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2741,
+    "level": "13a152696762594849471743a587a58232a16398:0:0.14876033057851235",
+    "time": 1.139
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14876033057851235,
+    "totalSolutions": 2745,
+    "level": "745494152a8379a415792586296823a76136138a:0:0.14876033057851235",
+    "time": 7.413
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2690,
+    "level": "98628986a291a543a71239675318742175a46354:0:0.14049586776859502",
+    "time": 0.6
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2826,
+    "level": "1a9547812a73a58917863659417824a362265493:0:0.14049586776859502",
+    "time": 0.133
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2396,
+    "level": "29a5732a639276a15a9468845611848435371279:0:0.14049586776859502",
+    "time": 1.103
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2311,
+    "level": "4912a5869245a21784a74337836371691955a826:0:0.14049586776859502",
+    "time": 0.115
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2353,
+    "level": "12541938a66a491a3a4953865287237177268495:0:0.14049586776859502",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2337,
+    "level": "447861a2278173435a9a93455586a91791863622:0:0.14049586776859502",
+    "time": 0.096
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2921,
+    "level": "a64176917426685a77539329823a81451849a235:0:0.14049586776859502",
+    "time": 0.247
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2518,
+    "level": "81379316323462716a1a8688a49257a525945479:0:0.14049586776859502",
+    "time": 0.129
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2434,
+    "level": "347294217972a1836a4a66759834862583195a51:0:0.14049586776859502",
+    "time": 9.491
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2577,
+    "level": "2146a38498242a577312181a56756943386959a7:0:0.14049586776859502",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2519,
+    "level": "481943217a16463587a5822593417a32a8799566:0:0.14049586776859502",
+    "time": 0.444
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2310,
+    "level": "5361a831195a71729867a288445634a952627349:0:0.14049586776859502",
+    "time": 0.291
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2465,
+    "level": "62289589a1176955a431a73883636492214757a4:0:0.14049586776859502",
+    "time": 0.14
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2647,
+    "level": "732554a8a44167913671a24657893918369528a2:0:0.14049586776859502",
+    "time": 0.476
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2442,
+    "level": "575197623223145a28814916689a973a45864a73:0:0.14049586776859502",
+    "time": 0.654
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2753,
+    "level": "6243698518953635411a28597167772aa9a42834:0:0.14049586776859502",
+    "time": 37.753
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2633,
+    "level": "4163198231598649523a174227a549a5667a8738:0:0.14049586776859502",
+    "time": 0.18
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 1927,
+    "level": "333a881a55272165824494495816799667a137a2:0:0.14049586776859502",
+    "time": 0.232
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 1769,
+    "level": "7a9117136a83a4572296546288853a9946743125:0:0.14049586776859502",
+    "time": 0.07
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2295,
+    "level": "4961871228a1a57494a1327669738a5355968234:0:0.14049586776859502",
+    "time": 0.122
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2053,
+    "level": "45a3a547993316293898a1712558667442861a27:0:0.14049586776859502",
+    "time": 0.107
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2196,
+    "level": "17912858472133a994462281463855637aa75a96:0:0.14049586776859502",
+    "time": 0.482
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.14049586776859502,
+    "totalSolutions": 2382,
+    "level": "2746133261837515a3968287a758449142a5a969:0:0.14049586776859502",
+    "time": 81.917
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2370,
+    "level": "811783926254723471a8597349a63965214a568a:0:0.1322314049586777",
+    "time": 0.15
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2652,
+    "level": "213636369aa827453165a185422a818499475977:0:0.1322314049586777",
+    "time": 0.242
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2776,
+    "level": "187aa75594671a2338782315496a954668421923:0:0.1322314049586777",
+    "time": 3.069
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2572,
+    "level": "7a572664428964713554183a9a8133156927829a:0:0.1322314049586777",
+    "time": 0.164
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2481,
+    "level": "6321511a57a5399923281654878937286a4464a7:0:0.1322314049586777",
+    "time": 0.655
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2742,
+    "level": "1187749aa38425253a6241598a63276346981957:0:0.1322314049586777",
+    "time": 17.514
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2242,
+    "level": "23275951337699aa95a8846a7836421172154468:0:0.1322314049586777",
+    "time": 0.084
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2728,
+    "level": "8447a738a46335139799812568171469a6522a52:0:0.1322314049586777",
+    "time": 0.426
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2365,
+    "level": "1836aa96932485724117446517a5832583a92967:0:0.1322314049586777",
+    "time": 0.45
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2245,
+    "level": "25982486a3612853442a485717a39766539a1179:0:0.1322314049586777",
+    "time": 0.196
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2424,
+    "level": "372915561384a637657243a6117a95a484922988:0:0.1322314049586777",
+    "time": 0.118
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2403,
+    "level": "852117592255987346186689a431aa43a2347679:0:0.1322314049586777",
+    "time": 0.254
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2200,
+    "level": "1784a2a661a3443627152588378991979a632545:0:0.1322314049586777",
+    "time": 5.345
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2762,
+    "level": "18a1425742672817a36243563a99851834a65799:0:0.1322314049586777",
+    "time": 0.402
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2553,
+    "level": "3828362151967353949a2784895a471a2165a746:0:0.1322314049586777",
+    "time": 0.327
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2487,
+    "level": "4213223a8366a7a57459746495198875981213a6:0:0.1322314049586777",
+    "time": 0.879
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2256,
+    "level": "12263719843874aa939277158584423566a61a59:0:0.1322314049586777",
+    "time": 0.152
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2657,
+    "level": "49832982a3192a365756764a7519732485161a48:0:0.1322314049586777",
+    "time": 2.106
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2490,
+    "level": "7162324491741a285856686139585323779aa49a:0:0.1322314049586777",
+    "time": 0.116
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2202,
+    "level": "9119a67a485a918652256a783449714228573633:0:0.1322314049586777",
+    "time": 0.114
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2123,
+    "level": "84791579113865a27634745638a329652149aa82:0:0.1322314049586777",
+    "time": 0.504
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2449,
+    "level": "9611859498a3723a5463239718a472582156a467:0:0.1322314049586777",
+    "time": 0.306
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2439,
+    "level": "2881659a3a47a678321794435462131297a96558:0:0.1322314049586777",
+    "time": 0.163
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2685,
+    "level": "573a4192688291a3aa1548328576657344919276:0:0.1322314049586777",
+    "time": 0.174
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1322314049586777,
+    "totalSolutions": 2654,
+    "level": "14783a72961962a925486351465713a285934a87:0:0.1322314049586777",
+    "time": 6.881
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2891,
+    "level": "5754978614629312853746a1416a9aa285233978:0:0.12396694214876036",
+    "time": 0.677
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2485,
+    "level": "195a814786639816a122923475459a7a48657323:0:0.12396694214876036",
+    "time": 0.478
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2661,
+    "level": "62711a44678756a25725341998a612588a933394:0:0.12396694214876036",
+    "time": 0.389
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2746,
+    "level": "223a327375655a2894a614a73896498648511197:0:0.12396694214876036",
+    "time": 0.192
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2621,
+    "level": "21999272283948a16561761a55438867435a4a73:0:0.12396694214876036",
+    "time": 0.447
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2654,
+    "level": "a4781a172355293a5973649a4619267324618858:0:0.12396694214876036",
+    "time": 0.365
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2554,
+    "level": "53641937512922619618973457425638a8a8aa47:0:0.12396694214876036",
+    "time": 4.047
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2445,
+    "level": "22526516341a98aa835199683717257348a49647:0:0.12396694214876036",
+    "time": 0.147
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2371,
+    "level": "8442a6219a459496a7377612695318157a383582:0:0.12396694214876036",
+    "time": 0.244
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2645,
+    "level": "744175817158968299137553a2a662338a6a4942:0:0.12396694214876036",
+    "time": 0.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2550,
+    "level": "45138a9964a355a793612946327a182572148876:0:0.12396694214876036",
+    "time": 4.113
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2638,
+    "level": "984114453a39378142722566675728a5a89319a6:0:0.12396694214876036",
+    "time": 0.211
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2592,
+    "level": "178712714a866396a345965521745a438a892239:0:0.12396694214876036",
+    "time": 0.221
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2482,
+    "level": "918a15522546a97638631422158a37a463779498:0:0.12396694214876036",
+    "time": 0.154
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2018,
+    "level": "174179363357a69815a9a4573816498a45228262:0:0.12396694214876036",
+    "time": 0.145
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2757,
+    "level": "2827a5a2676435794711998315643a51489263a8:0:0.12396694214876036",
+    "time": 1.938
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2365,
+    "level": "a189915695321a717a63328757864225a9438644:0:0.12396694214876036",
+    "time": 0.207
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2038,
+    "level": "21175838642775439aa15228a5946479318669a3:0:0.12396694214876036",
+    "time": 2.02
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2445,
+    "level": "73721a91182449a936898155362a68524a536747:0:0.12396694214876036",
+    "time": 0.274
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2714,
+    "level": "91615695a2a994a27383517a7267445813883462:0:0.12396694214876036",
+    "time": 0.475
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2414,
+    "level": "314392562398766567a87931a2154189a472548a:0:0.12396694214876036",
+    "time": 0.322
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2140,
+    "level": "226935438791aa155a51619437688a3872794624:0:0.12396694214876036",
+    "time": 0.276
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2241,
+    "level": "1792a649aa18841853a356731936684229477525:0:0.12396694214876036",
+    "time": 0.101
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2616,
+    "level": "4a3a2317a1597483647292967816a58551493268:0:0.12396694214876036",
+    "time": 0.194
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2124,
+    "level": "163852763379471426a65292a4518a9831a59847:0:0.12396694214876036",
+    "time": 0.112
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2655,
+    "level": "73514918629773485759328411a6462a3a85a296:0:0.12396694214876036",
+    "time": 2.159
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2612,
+    "level": "1aa6135a344684a2513798566579972482931782:0:0.12396694214876036",
+    "time": 0.477
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2356,
+    "level": "8528618a491451925782336374a452176a3699a7:0:0.12396694214876036",
+    "time": 0.137
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2361,
+    "level": "a13a134627a447755885495a3286166719229389:0:0.12396694214876036",
+    "time": 22.446
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2856,
+    "level": "8143481481a25737352a562667699a3194758a29:0:0.12396694214876036",
+    "time": 42.218
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.12396694214876036,
+    "totalSolutions": 2568,
+    "level": "688752543128aa379296674134318a12597954a6:0:0.12396694214876036",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2538,
+    "level": "95476a9639975826a8513324846117a58a247312:0:0.11570247933884292",
+    "time": 0.76
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2676,
+    "level": "53248293a9361561718977158624562a7a98344a:0:0.11570247933884292",
+    "time": 0.169
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2478,
+    "level": "81136889752357945136a414a74a25a226369789:0:0.11570247933884292",
+    "time": 0.11
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2920,
+    "level": "42aa978696431625128a453857147a3539672918:0:0.11570247933884292",
+    "time": 0.415
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2525,
+    "level": "a68411262494183935a736519582aa4589677372:0:0.11570247933884292",
+    "time": 0.249
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2535,
+    "level": "133a754a8762915982966659127a543483a41728:0:0.11570247933884292",
+    "time": 0.578
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2410,
+    "level": "8768464834349315112525915a899a72762a6a37:0:0.11570247933884292",
+    "time": 0.13
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2373,
+    "level": "294aa19861766895218535421a332759346747a8:0:0.11570247933884292",
+    "time": 0.212
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2766,
+    "level": "163699417912345893863545857aa7a262a71284:0:0.11570247933884292",
+    "time": 8.822
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2553,
+    "level": "776a31558983435247a194429621781862a396a5:0:0.11570247933884292",
+    "time": 0.415
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2143,
+    "level": "11137a89425a163849945275887a5a4267269363:0:0.11570247933884292",
+    "time": 0.074
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2581,
+    "level": "3728356827917519a6856a31243a48599a167424:0:0.11570247933884292",
+    "time": 0.183
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2608,
+    "level": "63a4988752171543929a12586429731a66534a78:0:0.11570247933884292",
+    "time": 0.146
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2516,
+    "level": "686314aa4167182a98637995a232472851574539:0:0.11570247933884292",
+    "time": 0.208
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2209,
+    "level": "8629661a31827361478237a1529835557aa49944:0:0.11570247933884292",
+    "time": 0.1
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2677,
+    "level": "23973a164818a3a19522716486a5524983459767:0:0.11570247933884292",
+    "time": 0.31
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2323,
+    "level": "9648249a53371221a9138436a55787796a514682:0:0.11570247933884292",
+    "time": 0.117
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2326,
+    "level": "81249a1261317a77228a4689638355937945546a:0:0.11570247933884292",
+    "time": 0.385
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2253,
+    "level": "1137397629853a445626a981722a86a345789415:0:0.11570247933884292",
+    "time": 0.138
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2495,
+    "level": "91a92353923764a1524a7816a574796682884315:0:0.11570247933884292",
+    "time": 0.119
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2783,
+    "level": "36514291723476a93771594682465a1a5838892a:0:0.11570247933884292",
+    "time": 0.115
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2380,
+    "level": "57918814a164218a9939a6276243557638374a52:0:0.11570247933884292",
+    "time": 0.713
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2410,
+    "level": "88a21439546194572687734931a3272a15a58696:0:0.11570247933884292",
+    "time": 0.143
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2652,
+    "level": "13aa3435987924212a25645791786a7146698583:0:0.11570247933884292",
+    "time": 0.215
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2723,
+    "level": "567a7a379165821a23962981817629345584a443:0:0.11570247933884292",
+    "time": 0.216
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2687,
+    "level": "2185383a27a81296a69395a61447874175536924:0:0.11570247933884292",
+    "time": 0.14
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2632,
+    "level": "1824315aaa8a8315764314329655722977894696:0:0.11570247933884292",
+    "time": 0.204
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2376,
+    "level": "1aaa99635268744151987729235685864431a273:0:0.11570247933884292",
+    "time": 0.082
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.11570247933884292,
+    "totalSolutions": 2809,
+    "level": "614775972aa568315a18378942128943369526a4:0:0.11570247933884292",
+    "time": 9.312
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2261,
+    "level": "28a599641112797aa3768a845436135395228467:0:0.1074380165289256",
+    "time": 0.198
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2864,
+    "level": "11918346874183278a6273a53a6a426592545997:0:0.1074380165289256",
+    "time": 0.366
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2555,
+    "level": "821684a38875173a399275a61a25973694251644:0:0.1074380165289256",
+    "time": 0.311
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 1930,
+    "level": "97137a112633454687a95467a2284395685a1982:0:0.1074380165289256",
+    "time": 0.081
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2371,
+    "level": "a3849a94518757964136163381a56722294a7258:0:0.1074380165289256",
+    "time": 2.129
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2496,
+    "level": "378aa181294525696545337134a64712a9286987:0:0.1074380165289256",
+    "time": 0.355
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2760,
+    "level": "76a59a84921338143651892747761452a532698a:0:0.1074380165289256",
+    "time": 0.261
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2572,
+    "level": "9a4a32949193715677152546483386a185627a28:0:0.1074380165289256",
+    "time": 0.949
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2495,
+    "level": "21733846173562895481395a2798471956a62a4a:0:0.1074380165289256",
+    "time": 0.792
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2399,
+    "level": "734151475841a6223369759aa186928324a65978:0:0.1074380165289256",
+    "time": 0.186
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 3001,
+    "level": "468691239953a8779431462378258715a1254a6a:0:0.1074380165289256",
+    "time": 28.747
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2466,
+    "level": "456815172713a94a739a986342158234578669a2:0:0.1074380165289256",
+    "time": 0.392
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2366,
+    "level": "98148638922349a4175166463539a78a5212a757:0:0.1074380165289256",
+    "time": 22.617
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2487,
+    "level": "613125861a74218a976259893494a3785237564a:0:0.1074380165289256",
+    "time": 0.171
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2553,
+    "level": "4295a8196163a5541527a841388393772726496a:0:0.1074380165289256",
+    "time": 7.552
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2856,
+    "level": "8878346a529343499784262a1a259557116a1376:0:0.1074380165289256",
+    "time": 0.101
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2325,
+    "level": "4916545921152487a793658a61223a393478867a:0:0.1074380165289256",
+    "time": 0.134
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2847,
+    "level": "43442979a6238a61298523185175a5179a364768:0:0.1074380165289256",
+    "time": 0.359
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2483,
+    "level": "92172893283a3159684a5a777256a14186345946:0:0.1074380165289256",
+    "time": 0.977
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2920,
+    "level": "13218795164965427a2525a96784a39486a87331:0:0.1074380165289256",
+    "time": 0.27
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 3057,
+    "level": "479a1167256947a15a563821347858329a689423:0:0.1074380165289256",
+    "time": 0.338
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2587,
+    "level": "3127a779696565362a1431a3478952848492815a:0:0.1074380165289256",
+    "time": 0.188
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2258,
+    "level": "3491a3169a82595a85a151362473829744686727:0:0.1074380165289256",
+    "time": 0.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2477,
+    "level": "17913a243129981a47254438678257936a6586a5:0:0.1074380165289256",
+    "time": 0.204
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2596,
+    "level": "a313338142712595aa985826a449687576126479:0:0.1074380165289256",
+    "time": 4.123
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.1074380165289256,
+    "totalSolutions": 2754,
+    "level": "14a29271125361859a3a5725343794866a468987:0:0.1074380165289256",
+    "time": 176.944
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2396,
+    "level": "485a6318a2639975114373829527467814a69a25:0:0.09917355371900827",
+    "time": 0.258
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2759,
+    "level": "15641783239522687a99786523aa144691a34857:0:0.09917355371900827",
+    "time": 1.054
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2466,
+    "level": "12a2865aa63568964375425923817149779138a4:0:0.09917355371900827",
+    "time": 1.519
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2671,
+    "level": "341619581a18647a77325237548a46939a892526:0:0.09917355371900827",
+    "time": 0.163
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2475,
+    "level": "3819284175795a764237a292451653436618a89a:0:0.09917355371900827",
+    "time": 0.51
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2495,
+    "level": "6a749a668293238711a47672454155325318a989:0:0.09917355371900827",
+    "time": 0.426
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2678,
+    "level": "2213a268a74174a593521758a694363956874918:0:0.09917355371900827",
+    "time": 1.604
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2293,
+    "level": "833a84726562867911754963951432aa549182a7:0:0.09917355371900827",
+    "time": 0.182
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2356,
+    "level": "9416829154818a19567277927aa845a363352463:0:0.09917355371900827",
+    "time": 0.222
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2578,
+    "level": "423698a18382115829761547647a959273a5346a:0:0.09917355371900827",
+    "time": 0.451
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2525,
+    "level": "159243837a12276318517698663a25a5444879a9:0:0.09917355371900827",
+    "time": 0.926
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2649,
+    "level": "a154512154626678698313a38a2a997492874357:0:0.09917355371900827",
+    "time": 1.719
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2786,
+    "level": "431331a8962124778862457a9a549a8569763521:0:0.09917355371900827",
+    "time": 2.909
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2504,
+    "level": "4296234a69673531a775431888211a8959a24576:0:0.09917355371900827",
+    "time": 0.099
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2953,
+    "level": "4a6a71a469241586593142132938972837a57586:0:0.09917355371900827",
+    "time": 0.224
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2093,
+    "level": "4321a157723126593a98816a29746886734545a9:0:0.09917355371900827",
+    "time": 0.146
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2240,
+    "level": "a849166157289683a51277513396239247a5844a:0:0.09917355371900827",
+    "time": 0.332
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2696,
+    "level": "5a2634751487926a3149973471621352588a9a68:0:0.09917355371900827",
+    "time": 0.171
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2318,
+    "level": "3861641729855991537a61a4424859227a336a78:0:0.09917355371900827",
+    "time": 0.458
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09917355371900827,
+    "totalSolutions": 2391,
+    "level": "471449a266518465a78a8351922712839a397536:0:0.09917355371900827",
+    "time": 0.27
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2162,
+    "level": "38a77a1155139582a74a16293936657482424698:0:0.09090909090909094",
+    "time": 0.269
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2513,
+    "level": "9138a844a76114159289652262759a637378a453:0:0.09090909090909094",
+    "time": 0.731
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2568,
+    "level": "1a23385245395a191798418769764765aa362824:0:0.09090909090909094",
+    "time": 5.366
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2193,
+    "level": "1192479588267a3a23359464a1587614752368a9:0:0.09090909090909094",
+    "time": 0.172
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2108,
+    "level": "13a984951598838542316673775a12427a26a964:0:0.09090909090909094",
+    "time": 0.166
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2217,
+    "level": "11a97422219a538468863894a5432a9616577375:0:0.09090909090909094",
+    "time": 0.157
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2973,
+    "level": "a64736753741822a969368122a415a5789589134:0:0.09090909090909094",
+    "time": 0.888
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2986,
+    "level": "5475255239a9478921146a97a32848618361637a:0:0.09090909090909094",
+    "time": 0.28
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2599,
+    "level": "731a26943431995658182598a7846aa572427163:0:0.09090909090909094",
+    "time": 0.132
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2439,
+    "level": "1a7986673857aa41326412279a46588542153993:0:0.09090909090909094",
+    "time": 0.38
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2449,
+    "level": "88a725474366793a2131972a269355141548a689:0:0.09090909090909094",
+    "time": 0.553
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2736,
+    "level": "1642a55974385a34712a71216a98488236599763:0:0.09090909090909094",
+    "time": 18.207
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2777,
+    "level": "819a16548a5677532a4523619872893734196a42:0:0.09090909090909094",
+    "time": 0.12
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2677,
+    "level": "75129595142336a2883193668a547aa962147847:0:0.09090909090909094",
+    "time": 0.256
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2799,
+    "level": "119394346572183a676a73565945724a928881a2:0:0.09090909090909094",
+    "time": 0.17
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2771,
+    "level": "975681726a6753114287348a4198946a52359a23:0:0.09090909090909094",
+    "time": 38.031
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.09090909090909094,
+    "totalSolutions": 2203,
+    "level": "1972419561164a58a25a48397752366339248a87:0:0.09090909090909094",
+    "time": 0.102
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2908,
+    "level": "341217385aa146772389549472916a6328a65589:0:0.0826446280991735",
+    "time": 0.409
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2544,
+    "level": "72168418355a57613446987796319489a32a52a2:0:0.0826446280991735",
+    "time": 0.124
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2712,
+    "level": "13241869a53529362264746317587845a8a91a97:0:0.0826446280991735",
+    "time": 0.3
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2454,
+    "level": "15835721873666495928564a17a341324a2a9798:0:0.0826446280991735",
+    "time": 23.43
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2565,
+    "level": "114889312a45276766789a176a3252439584953a:0:0.0826446280991735",
+    "time": 0.153
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2356,
+    "level": "112198382246a174338755564564a293a9876a79:0:0.0826446280991735",
+    "time": 0.18
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2720,
+    "level": "599311972a3972844427a5136876a5684a813265:0:0.0826446280991735",
+    "time": 0.164
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.0826446280991735,
+    "totalSolutions": 2676,
+    "level": "6119356223a477821a9a96438526135977a48845:0:0.0826446280991735",
+    "time": 0.188
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.07438016528925617,
+    "totalSolutions": 3011,
+    "level": "9728143756a7856a513268243a496a9519731482:0:0.07438016528925617",
+    "time": 1.776
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.07438016528925617,
+    "totalSolutions": 2794,
+    "level": "1a284181659458197a4253283966372a6374a579:0:0.07438016528925617",
+    "time": 15.582
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.07438016528925617,
+    "totalSolutions": 2877,
+    "level": "86a848a91147a16236578375539246259492137a:0:0.07438016528925617",
+    "time": 56.702
+  },
+  {
+    "complexityFirst": 0,
+    "complexitySecond": 0.2644628099173554,
+    "firstSteps": {
+      "0a1b": 27,
+      "0a2b": 29,
+      "0a3b": 29,
+      "0a6b": 24,
+      "0a7b": 25,
+      "0a8b": 24,
+      "0a9b": 20,
+      "1a01": 27,
+      "1a0b": 27,
+      "1a2b": 27,
+      "1a3b": 27,
+      "1a6b": 23,
+      "1a7b": 24,
+      "1a8b": 24,
+      "2a0b": 29,
+      "2a1b": 27,
+      "2a2b": 23,
+      "2a3a": 29,
+      "2a4b": 30,
+      "2a5b": 28,
+      "2a62": 29,
+      "2a6b": 23,
+      "2a72": 29,
+      "2a7b": 23,
+      "2a8a": 24,
+      "2a9b": 20,
+      "3a0b": 29,
+      "3a13": 28,
+      "3a1b": 27,
+      "3a2a": 29,
+      "3a3b": 27,
+      "3a4b": 30,
+      "3a5b": 28,
+      "3a6b": 23,
+      "3a7b": 23,
+      "3a8a": 29,
+      "3a9b": 20,
+      "4a2b": 30,
+      "4a3b": 30,
+      "4a6b": 25,
+      "4a7b": 25,
+      "4a8b": 30,
+      "4a94": 21,
+      "4a9b": 21,
+      "5a2b": 28,
+      "5a3b": 28,
+      "5a6b": 24,
+      "5a7b": 25,
+      "5a8b": 29,
+      "6a0b": 24,
+      "6a1b": 23,
+      "6a2b": 23,
+      "6a3b": 23,
+      "6a4b": 25,
+      "6a5b": 24,
+      "6a7a": 25,
+      "6a8b": 24,
+      "6a9b": 24,
+      "7a0b": 25,
+      "7a1b": 24,
+      "7a2b": 23,
+      "7a3b": 23,
+      "7a4b": 25,
+      "7a5b": 25,
+      "7a6a": 25,
+      "7a7b": 26,
+      "7a8b": 24,
+      "7a97": 26,
+      "7a9b": 25,
+      "8a0b": 24,
+      "8a1b": 24,
+      "8a2a": 24,
+      "8a3a": 29,
+      "8a4b": 30,
+      "8a5b": 29,
+      "8a68": 29,
+      "8a6b": 24,
+      "8a78": 29,
+      "8a7b": 24,
+      "8a8b": 25,
+      "8a9b": 21,
+      "9a09": 20,
+      "9a0b": 20,
+      "9a2b": 20,
+      "9a3b": 20,
+      "9a4b": 21,
+      "9a6b": 24,
+      "9a7b": 25,
+      "9a8b": 21
+    },
+    "totalSolutions": 2249,
+    "level": "6743a931648a611a4375294221989578568a5237",
+    "time": 1196.609
+  }
+]

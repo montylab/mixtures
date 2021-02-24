@@ -1,47 +1,47 @@
 const chunkArray = (array, chunk) => {
-    const newArray = [];
-    for (let i = 0; i < array.length; i += chunk) {
-        newArray.push(array.slice(i, i + chunk));
-    }
+	const newArray = []
+	for (let i = 0; i < array.length; i += chunk) {
+		newArray.push(array.slice(i, i + chunk))
+	}
 
-    return newArray;
+	return newArray
 }
 
 function generateLevelsWithSettings({colored, empty}) {
-    let checkerComparisonString = ''
-    for (let i=0; i<colored; i++) {
-        checkerComparisonString += i.toString().repeat(4)
-    }
+	let checkerComparisonString = ''
+	for (let i = 0; i < colored; i++) {
+		checkerComparisonString += i.toString().repeat(4)
+	}
 
-    let levels = []
-    for (let i = 0; i < colored ** (4 * colored); i++) {
-        if (i % 1000000 === 0) {
-            console.count('millions')
-        }
+	let levels = []
+	for (let i = 0; i < colored ** (4 * colored); i++) {
+		if (i % 1000000 === 0) {
+			console.count('millions')
+		}
 
-        let string = (i).toString(colored)
-        while (string.length < 4 * colored) {
-            string = '0' + string
-        }
+		let string = (i).toString(colored)
+		while (string.length < 4 * colored) {
+			string = '0' + string
+		}
 
-        let arr =  string.split('').map(Number)
-        const comparableString =  string.split('').map(Number).sort().join('')
-        if (comparableString === checkerComparisonString) {
-            arr = arr.map(number => number || colored)
-            const level = chunkArray(arr, 4)
-            for (let k=0; k<empty; k++) {
-                level.push([])
-            }
+		let arr = string.split('').map(Number)
+		const comparableString = string.split('').map(Number).sort().join('')
+		if (comparableString === checkerComparisonString) {
+			arr = arr.map(number => number || colored)
+			const level = chunkArray(arr, 4)
+			for (let k = 0; k < empty; k++) {
+				level.push([])
+			}
 
-            levels.push(level)
+			levels.push(level)
 
-            if (level.length % 100 === 0) {
-                console.count('level hundreds')
-            }
-        }
-    }
+			if (level.length % 100 === 0) {
+				console.count('level hundreds')
+			}
+		}
+	}
 
-    return levels
+	return levels
 }
 
 // export const levelsWithThreeTubes = generateLevelsWithSettings({colored: 2, empty: 1})
