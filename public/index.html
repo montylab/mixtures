@@ -2,35 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <link rel="icon" href="%PUBLIC_URL%/fav-128.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <meta name="theme-color" content="#000000"/>
     <meta
             name="description"
-            content="Web site created using create-react-app"
+            content="Flasj puzzle game"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/fav512.png"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <!--    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />-->
-    <!--    <base href="/mixtures">-->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+
     <title>Mixture Game</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8Z9B6J6GE"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+		window.dataLayer = window.dataLayer || []
 
-        function gtag() {
-            dataLayer.push(arguments);
+		function gtag() {
+			dataLayer.push(arguments)
+		}
+
+		gtag('js', new Date())
+
+		gtag('config', 'G-X8Z9B6J6GE')
+
+
+		try {
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js', {scope: '/'})
+					.then((registration) => {
+						const data = {
+							type: 'CACHE_URLS',
+							payload: [
+								location.href,
+								...performance.getEntriesByType('resource').map((r) => r.name)
+							]
+						}
+						registration.installing.postMessage(data)
+					})
+					.catch((err) => console.log('SW registration FAIL:', err))
+			}
+		} catch (e) {
+			console.error(e)
         }
 
-        gtag('js', new Date());
-
-        gtag('config', 'G-X8Z9B6J6GE');
     </script>
+
+
 </head>
 <body>
 <div id="root"></div>
