@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+
     <link rel="icon" href="%PUBLIC_URL%/fav-128.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <meta name="theme-color" content="#000000"/>
@@ -30,26 +31,6 @@
 		gtag('js', new Date())
 
 		gtag('config', 'G-X8Z9B6J6GE')
-
-
-		try {
-			if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.register('/sw.js', {scope: '/'})
-					.then((registration) => {
-						const data = {
-							type: 'CACHE_URLS',
-							payload: [
-								location.href,
-								...performance.getEntriesByType('resource').map((r) => r.name)
-							]
-						}
-						registration.installing.postMessage(data)
-					})
-					.catch((err) => console.log('SW registration FAIL:', err))
-			}
-		} catch (e) {
-			console.error(e)
-        }
 
     </script>
 
@@ -85,4 +66,31 @@
     </svg>
 </div>
 </body>
+
+<script>
+	try {
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js', {scope: '/'})
+				.then((registration) => {
+					setTimeout(() => {
+						console.log('hello after registration', registration)
+						const data = {
+							type: 'CACHE_URLS',
+							payload: [
+								location.href,
+								...performance.getEntriesByType('resource').map((r) => r.name)
+							]
+						}
+
+						const handler = (registration.installing || registration.active || window)
+						handler.postMessage(data)
+					}, 1000)
+				})
+				.catch((err) => console.log('SW registration FAIL:', err))
+		}
+	} catch (e) {
+		console.error(e)
+	}
+</script>
+
 </html>
