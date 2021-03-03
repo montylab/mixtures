@@ -11,6 +11,16 @@ import SettingsScreen from './SettingsScreen'
 import {sendAnalyticsEvent} from './analytics'
 import {vibrate} from './helpers'
 
+
+
+// alert('0 стой!')
+// window.onunload = window.onbeforeunload = window.onpopstate = function(event) {
+// 	event.preventDefault();
+//
+// 	alert('стой!')
+// 	return 'стэй тюнд'
+// }
+
 export const SCREENS = {
 	game: 'game',
 	nextLevel: 'nextLevel',
@@ -171,11 +181,23 @@ function App() {
 	window.onkeydown = throttle(100, false, keyupHandler)
 	window.onkeydown()
 
-	window.history.forward();
-	window.onpopstate = window.onunload = function (e) {
-		window.history.go(1);
-		e.preventDefault()
-	};
+
+
+	// const redirect = (e) => {
+	// 	if(e.state.goBack){
+	// 		window.location.href = window.location.href;
+	// 	}
+	// }
+	//
+	// const _location = window.location.href
+	// window.history.pushState({goBack: true}, null, '');
+	// window.history.pushState({}, null, _location);
+	// window.onpopstate = redirect;
+	// while (window.history.length < 100) {
+	// 	console.log('psuh')
+	// 	window.history.pushState({}, null, window.location);
+	// }
+
 
 
 	const clickTubeHandler = (index) => {
