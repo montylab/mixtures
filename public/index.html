@@ -73,7 +73,6 @@
 			navigator.serviceWorker.register('/sw.js', {scope: '/'})
 				.then((registration) => {
 					setTimeout(() => {
-						console.log('hello after registration', registration)
 						const data = {
 							type: 'CACHE_URLS',
 							payload: [

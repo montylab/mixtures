@@ -9,7 +9,6 @@ self.addEventListener('message', (event) => {
 		event.waitUntil(
 			caches.open(KEY)
 				.then( (cache) => {
-					console.log(event.data.payload)
 					return cache.addAll(event.data.payload);
 				})
 		);
