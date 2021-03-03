@@ -1,0 +1,22 @@
+{
+  "name": "Mixtures Game",
+  "short_name": "Mixtures",
+  "start_url": ".",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Puzzle game with colored flasks",
+  "icons": [{
+    "src": "/fav-64.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }, {
+    "src": "/fav-128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "/fav-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
